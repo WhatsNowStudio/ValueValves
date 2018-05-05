@@ -1,0 +1,166 @@
+fileFormatVersion: 2
+guid: 5be84ff730fbb824686684e56d2a650f
+timeCreated: 1507009801
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: "\u94E3\u5E8A \u5916\u7F69"
+    100004: "\u94E3\u5E8A \u9580L"
+    100006: "\u94E3\u5E8A \u9580R"
+    100008: "\u94E3\u5E8A_BED"
+    100010: "\u94E3\u5E8A_BedBase"
+    100012: "\u94E3\u5E8A_CENTER BASE"
+    100014: "\u94E3\u5E8A_\u4E3B\u8EF8"
+    100016: "\u94E3\u5E8A_\u4F38\u7E2E\u8B77\u7F69"
+    100018: "\u94E3\u5E8A_\u5200\u81C2"
+    100020: "\u94E3\u5E8A_\u7F6E\u5177\u67B6"
+    100022: "\u94E3\u5E8A_\u4E3B\u8EF8\u982D_\u593E\u982D"
+    100024: "\u63DB\u5200\u8F49\u8EF8"
+    100026: "\u94E3\u5E8A_\u6DF1\u5B54\u947D\u5200"
+    100028: "\u94E3\u5E8A_\u6DFA\u5B54\u947D\u5200"
+    100030: "\u94E3\u5E8A_\u4E3B\u8EF8Base"
+    100032: "\u94E3\u5E8A_\u5200\u5EAB"
+    400000: //RootNode
+    400002: "\u94E3\u5E8A \u5916\u7F69"
+    400004: "\u94E3\u5E8A \u9580L"
+    400006: "\u94E3\u5E8A \u9580R"
+    400008: "\u94E3\u5E8A_BED"
+    400010: "\u94E3\u5E8A_BedBase"
+    400012: "\u94E3\u5E8A_CENTER BASE"
+    400014: "\u94E3\u5E8A_\u4E3B\u8EF8"
+    400016: "\u94E3\u5E8A_\u4F38\u7E2E\u8B77\u7F69"
+    400018: "\u94E3\u5E8A_\u5200\u81C2"
+    400020: "\u94E3\u5E8A_\u7F6E\u5177\u67B6"
+    400022: "\u94E3\u5E8A_\u4E3B\u8EF8\u982D_\u593E\u982D"
+    400024: "\u63DB\u5200\u8F49\u8EF8"
+    400026: "\u94E3\u5E8A_\u6DF1\u5B54\u947D\u5200"
+    400028: "\u94E3\u5E8A_\u6DFA\u5B54\u947D\u5200"
+    400030: "\u94E3\u5E8A_\u4E3B\u8EF8Base"
+    400032: "\u94E3\u5E8A_\u5200\u5EAB"
+    2300000: "\u94E3\u5E8A \u5916\u7F69"
+    2300002: "\u94E3\u5E8A \u9580L"
+    2300004: "\u94E3\u5E8A \u9580R"
+    2300006: "\u94E3\u5E8A_BED"
+    2300008: "\u94E3\u5E8A_BedBase"
+    2300010: "\u94E3\u5E8A_CENTER BASE"
+    2300012: "\u94E3\u5E8A_\u4E3B\u8EF8"
+    2300014: "\u94E3\u5E8A_\u4F38\u7E2E\u8B77\u7F69"
+    2300016: "\u94E3\u5E8A_\u5200\u81C2"
+    2300018: "\u94E3\u5E8A_\u7F6E\u5177\u67B6"
+    2300020: "\u94E3\u5E8A_\u4E3B\u8EF8\u982D_\u593E\u982D"
+    2300022: "\u63DB\u5200\u8F49\u8EF8"
+    2300024: "\u94E3\u5E8A_\u6DF1\u5B54\u947D\u5200"
+    2300026: "\u94E3\u5E8A_\u6DFA\u5B54\u947D\u5200"
+    2300028: "\u94E3\u5E8A_\u4E3B\u8EF8Base"
+    2300030: "\u94E3\u5E8A_\u5200\u5EAB"
+    3300000: "\u94E3\u5E8A \u5916\u7F69"
+    3300002: "\u94E3\u5E8A \u9580L"
+    3300004: "\u94E3\u5E8A \u9580R"
+    3300006: "\u94E3\u5E8A_BED"
+    3300008: "\u94E3\u5E8A_BedBase"
+    3300010: "\u94E3\u5E8A_CENTER BASE"
+    3300012: "\u94E3\u5E8A_\u4E3B\u8EF8"
+    3300014: "\u94E3\u5E8A_\u4F38\u7E2E\u8B77\u7F69"
+    3300016: "\u94E3\u5E8A_\u5200\u81C2"
+    3300018: "\u94E3\u5E8A_\u7F6E\u5177\u67B6"
+    3300020: "\u94E3\u5E8A_\u4E3B\u8EF8\u982D_\u593E\u982D"
+    3300022: "\u63DB\u5200\u8F49\u8EF8"
+    3300024: "\u94E3\u5E8A_\u6DF1\u5B54\u947D\u5200"
+    3300026: "\u94E3\u5E8A_\u6DFA\u5B54\u947D\u5200"
+    3300028: "\u94E3\u5E8A_\u4E3B\u8EF8Base"
+    3300030: "\u94E3\u5E8A_\u5200\u5EAB"
+    4300000: "\u94E3\u5E8A \u5916\u7F69"
+    4300002: "\u94E3\u5E8A \u9580L"
+    4300004: "\u94E3\u5E8A \u9580R"
+    4300006: "\u94E3\u5E8A_CENTER BASE"
+    4300008: "\u94E3\u5E8A_BedBase"
+    4300010: "\u94E3\u5E8A_BED"
+    4300012: "\u94E3\u5E8A_\u7F6E\u5177\u67B6"
+    4300014: "\u94E3\u5E8A_\u4E3B\u8EF8"
+    4300016: "\u94E3\u5E8A_\u5200\u81C2"
+    4300018: "\u94E3\u5E8A_\u4F38\u7E2E\u8B77\u7F69"
+    4300020: "\u94E3\u5E8A_\u4E3B\u8EF8\u982D_\u593E\u982D"
+    4300022: "\u63DB\u5200\u8F49\u8EF8"
+    4300024: "\u94E3\u5E8A_\u6DFA\u5B54\u947D\u5200"
+    4300026: "\u94E3\u5E8A_\u6DF1\u5B54\u947D\u5200"
+    4300028: "\u94E3\u5E8A_\u4E3B\u8EF8Base"
+    4300030: "\u94E3\u5E8A_\u5200\u5EAB"
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

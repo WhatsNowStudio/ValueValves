@@ -1,0 +1,146 @@
+fileFormatVersion: 2
+guid: 9cd30291c3ad8bd44838c0a1d01d3334
+timeCreated: 1506417609
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Cam
+    100002: Support
+    100004: //RootNode
+    100006: Tank_HotOil
+    100008: Tank_Hexagonal
+    100010: Tank_Hexagonal_Cover
+    100012: Tank_Hexagonal_CoverB
+    100014: Tank_HexagonalB
+    100016: Tank_Hexagonal_Center
+    100018: Tank_HexagonalC
+    100020: WaterFan
+    100022: Tank_Box
+    100024: Tank_Floor
+    400000: Cam
+    400002: Support
+    400004: //RootNode
+    400006: Tank_HotOil
+    400008: Tank_Hexagonal
+    400010: Tank_Hexagonal_Cover
+    400012: Tank_Hexagonal_CoverB
+    400014: Tank_HexagonalB
+    400016: Tank_Hexagonal_Center
+    400018: Tank_HexagonalC
+    400020: WaterFan
+    400022: Tank_Box
+    400024: Tank_Floor
+    2300000: Cam
+    2300002: Support
+    2300004: Tank_HotOil
+    2300006: Tank_Hexagonal
+    2300008: Tank_Hexagonal_Cover
+    2300010: Tank_Hexagonal_CoverB
+    2300012: Tank_HexagonalB
+    2300014: Tank_Hexagonal_Center
+    2300016: Tank_HexagonalC
+    2300018: WaterFan
+    2300020: Tank_Box
+    2300022: Tank_Floor
+    3300000: Cam
+    3300002: Support
+    3300004: Tank_HotOil
+    3300006: Tank_Hexagonal
+    3300008: Tank_Hexagonal_Cover
+    3300010: Tank_Hexagonal_CoverB
+    3300012: Tank_HexagonalB
+    3300014: Tank_Hexagonal_Center
+    3300016: Tank_HexagonalC
+    3300018: WaterFan
+    3300020: Tank_Box
+    3300022: Tank_Floor
+    4300000: Tank_HotOil
+    4300002: Cam
+    4300004: Support
+    4300006: Tank_Hexagonal
+    4300008: Tank_Hexagonal_Cover
+    4300010: Tank_HexagonalB
+    4300012: Tank_Hexagonal_CoverB
+    4300014: Tank_Hexagonal_Center
+    4300016: Tank_HexagonalC
+    4300018: WaterFan
+    4300020: Tank_Box
+    4300022: Tank_Floor
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,165 @@
+fileFormatVersion: 2
+guid: 7f2732c83f2f24342b813a2b82d392f7
+timeCreated: 1507019765
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: "\u4E0A\u5200\u5854"
+    100002: "\u4E0A\u5200\u5854_\u5207\u65B7\u5200001"
+    100004: "\u4E0A\u5200\u5854_\u5916\u5F91\u6383\u5200+\u516D\u89D2\u9762\u94E3\u5200001"
+    100006: "\u4E0A\u5200\u5854_\u5916\u5F91\u6383\u5200+\u516D\u89D2\u9762\u94E3\u5200\u5EA7001"
+    100008: "\u4E0A\u5200\u5854_\u98DB\u6A5F\u7FFC\u66F2\u9762\u94E3\u5200001"
+    100010: "\u4E0A\u5200\u5854_\u98DB\u6A5F\u7FFC\u66F2\u9762\u94E3\u5200\u5EA7001"
+    100012: "\u4E0B\u5200\u5854"
+    100014: "\u4E0B\u5200\u5854_\u5207\u65B7\u5200001"
+    100016: "\u4E0B\u5200\u5854_\u5916\u5F91\u6383\u5200+\u516D\u89D2\u9762\u94E3\u5200001"
+    100018: "\u4E0B\u5200\u5854_\u5916\u5F91\u6383\u5200+\u516D\u89D2\u9762\u94E3\u5200_\u5200\u5EA7001"
+    100020: "\u4E0B\u5200\u5854_\u98DB\u6A5F\u7FFC\u66F2\u9762\u94E3\u5200001"
+    100022: "\u4E0B\u5200\u5854_\u98DB\u6A5F\u7FFC\u66F2\u9762\u94E3\u5200\u5EA7001"
+    100024: //RootNode
+    100026: "\u94E3\u5E8A_\u6DF1\u5B54\u947D\u5200001"
+    100028: "\u94E3\u5E8A_\u6DFA\u5B54\u947D\u5200001"
+    100030: "\u9AD8\u96D5\u94E3\u5200001"
+    100032: "\u4E0A\u5200\u5854_\u4E00\u822C\u5200\u5177\u5E95\u5EA7001"
+    100034: "\u4E0B\u5200\u5854_\u4E00\u822C\u5200\u5177\u5E95\u5EA7001"
+    400000: "\u4E0A\u5200\u5854"
+    400002: "\u4E0A\u5200\u5854_\u5207\u65B7\u5200001"
+    400004: "\u4E0A\u5200\u5854_\u5916\u5F91\u6383\u5200+\u516D\u89D2\u9762\u94E3\u5200001"
+    400006: "\u4E0A\u5200\u5854_\u5916\u5F91\u6383\u5200+\u516D\u89D2\u9762\u94E3\u5200\u5EA7001"
+    400008: "\u4E0A\u5200\u5854_\u98DB\u6A5F\u7FFC\u66F2\u9762\u94E3\u5200001"
+    400010: "\u4E0A\u5200\u5854_\u98DB\u6A5F\u7FFC\u66F2\u9762\u94E3\u5200\u5EA7001"
+    400012: "\u4E0B\u5200\u5854"
+    400014: "\u4E0B\u5200\u5854_\u5207\u65B7\u5200001"
+    400016: "\u4E0B\u5200\u5854_\u5916\u5F91\u6383\u5200+\u516D\u89D2\u9762\u94E3\u5200001"
+    400018: "\u4E0B\u5200\u5854_\u5916\u5F91\u6383\u5200+\u516D\u89D2\u9762\u94E3\u5200_\u5200\u5EA7001"
+    400020: "\u4E0B\u5200\u5854_\u98DB\u6A5F\u7FFC\u66F2\u9762\u94E3\u5200001"
+    400022: "\u4E0B\u5200\u5854_\u98DB\u6A5F\u7FFC\u66F2\u9762\u94E3\u5200\u5EA7001"
+    400024: //RootNode
+    400026: "\u94E3\u5E8A_\u6DF1\u5B54\u947D\u5200001"
+    400028: "\u94E3\u5E8A_\u6DFA\u5B54\u947D\u5200001"
+    400030: "\u9AD8\u96D5\u94E3\u5200001"
+    400032: "\u4E0A\u5200\u5854_\u4E00\u822C\u5200\u5177\u5E95\u5EA7001"
+    400034: "\u4E0B\u5200\u5854_\u4E00\u822C\u5200\u5177\u5E95\u5EA7001"
+    2300000: "\u4E0A\u5200\u5854_\u5207\u65B7\u5200001"
+    2300002: "\u4E0A\u5200\u5854_\u5916\u5F91\u6383\u5200+\u516D\u89D2\u9762\u94E3\u5200001"
+    2300004: "\u4E0A\u5200\u5854_\u5916\u5F91\u6383\u5200+\u516D\u89D2\u9762\u94E3\u5200\u5EA7001"
+    2300006: "\u4E0A\u5200\u5854_\u98DB\u6A5F\u7FFC\u66F2\u9762\u94E3\u5200001"
+    2300008: "\u4E0A\u5200\u5854_\u98DB\u6A5F\u7FFC\u66F2\u9762\u94E3\u5200\u5EA7001"
+    2300010: "\u4E0B\u5200\u5854_\u5207\u65B7\u5200001"
+    2300012: "\u4E0B\u5200\u5854_\u5916\u5F91\u6383\u5200+\u516D\u89D2\u9762\u94E3\u5200001"
+    2300014: "\u4E0B\u5200\u5854_\u5916\u5F91\u6383\u5200+\u516D\u89D2\u9762\u94E3\u5200_\u5200\u5EA7001"
+    2300016: "\u4E0B\u5200\u5854_\u98DB\u6A5F\u7FFC\u66F2\u9762\u94E3\u5200001"
+    2300018: "\u4E0B\u5200\u5854_\u98DB\u6A5F\u7FFC\u66F2\u9762\u94E3\u5200\u5EA7001"
+    2300020: "\u94E3\u5E8A_\u6DF1\u5B54\u947D\u5200001"
+    2300022: "\u94E3\u5E8A_\u6DFA\u5B54\u947D\u5200001"
+    2300024: "\u9AD8\u96D5\u94E3\u5200001"
+    2300026: "\u4E0A\u5200\u5854_\u4E00\u822C\u5200\u5177\u5E95\u5EA7001"
+    2300028: "\u4E0B\u5200\u5854_\u4E00\u822C\u5200\u5177\u5E95\u5EA7001"
+    3300000: "\u4E0A\u5200\u5854_\u5207\u65B7\u5200001"
+    3300002: "\u4E0A\u5200\u5854_\u5916\u5F91\u6383\u5200+\u516D\u89D2\u9762\u94E3\u5200001"
+    3300004: "\u4E0A\u5200\u5854_\u5916\u5F91\u6383\u5200+\u516D\u89D2\u9762\u94E3\u5200\u5EA7001"
+    3300006: "\u4E0A\u5200\u5854_\u98DB\u6A5F\u7FFC\u66F2\u9762\u94E3\u5200001"
+    3300008: "\u4E0A\u5200\u5854_\u98DB\u6A5F\u7FFC\u66F2\u9762\u94E3\u5200\u5EA7001"
+    3300010: "\u4E0B\u5200\u5854_\u5207\u65B7\u5200001"
+    3300012: "\u4E0B\u5200\u5854_\u5916\u5F91\u6383\u5200+\u516D\u89D2\u9762\u94E3\u5200001"
+    3300014: "\u4E0B\u5200\u5854_\u5916\u5F91\u6383\u5200+\u516D\u89D2\u9762\u94E3\u5200_\u5200\u5EA7001"
+    3300016: "\u4E0B\u5200\u5854_\u98DB\u6A5F\u7FFC\u66F2\u9762\u94E3\u5200001"
+    3300018: "\u4E0B\u5200\u5854_\u98DB\u6A5F\u7FFC\u66F2\u9762\u94E3\u5200\u5EA7001"
+    3300020: "\u94E3\u5E8A_\u6DF1\u5B54\u947D\u5200001"
+    3300022: "\u94E3\u5E8A_\u6DFA\u5B54\u947D\u5200001"
+    3300024: "\u9AD8\u96D5\u94E3\u5200001"
+    3300026: "\u4E0A\u5200\u5854_\u4E00\u822C\u5200\u5177\u5E95\u5EA7001"
+    3300028: "\u4E0B\u5200\u5854_\u4E00\u822C\u5200\u5177\u5E95\u5EA7001"
+    4300000: "\u4E0B\u5200\u5854_\u98DB\u6A5F\u7FFC\u66F2\u9762\u94E3\u5200\u5EA7001"
+    4300002: "\u4E0B\u5200\u5854_\u98DB\u6A5F\u7FFC\u66F2\u9762\u94E3\u5200001"
+    4300004: "\u4E0A\u5200\u5854_\u5916\u5F91\u6383\u5200+\u516D\u89D2\u9762\u94E3\u5200\u5EA7001"
+    4300006: "\u4E0A\u5200\u5854_\u5916\u5F91\u6383\u5200+\u516D\u89D2\u9762\u94E3\u5200001"
+    4300008: "\u4E0A\u5200\u5854_\u98DB\u6A5F\u7FFC\u66F2\u9762\u94E3\u5200\u5EA7001"
+    4300010: "\u4E0A\u5200\u5854_\u98DB\u6A5F\u7FFC\u66F2\u9762\u94E3\u5200001"
+    4300012: "\u4E0A\u5200\u5854_\u5207\u65B7\u5200001"
+    4300014: "\u4E0B\u5200\u5854_\u5916\u5F91\u6383\u5200+\u516D\u89D2\u9762\u94E3\u5200_\u5200\u5EA7001"
+    4300016: "\u4E0B\u5200\u5854_\u5916\u5F91\u6383\u5200+\u516D\u89D2\u9762\u94E3\u5200001"
+    4300018: "\u4E0B\u5200\u5854_\u5207\u65B7\u5200001"
+    4300020: "\u9AD8\u96D5\u94E3\u5200001"
+    4300022: "\u94E3\u5E8A_\u6DF1\u5B54\u947D\u5200001"
+    4300024: "\u94E3\u5E8A_\u6DFA\u5B54\u947D\u5200001"
+    4300026: "\u4E0A\u5200\u5854_\u4E00\u822C\u5200\u5177\u5E95\u5EA7001"
+    4300028: "\u4E0B\u5200\u5854_\u4E00\u822C\u5200\u5177\u5E95\u5EA7001"
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,250 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 42938266, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: PlaymakerGlobals
+  m_EditorClassIdentifier: 
+  variables:
+    floatVariables:
+    - useVariable: 1
+      name: Float/FingerDistance
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Float/FingerDistanceSpeed
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Float/FingerSpeed
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Float/FingerSpeedY
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    intVariables:
+    - useVariable: 1
+      name: Int/LocationSelect
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Int/TouchCount
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    boolVariables:
+    - useVariable: 1
+      name: Bool/3DModeUsing
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Bool/ARTargetUseing
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    stringVariables:
+    - useVariable: 1
+      name: String/LanguageSelect
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 
+    - useVariable: 1
+      name: String/RecordSteps/Content
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 
+    - useVariable: 1
+      name: String/RecordSteps/TagSelect
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 
+    - useVariable: 1
+      name: String/SplitWord
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: "\u222D"
+    - useVariable: 1
+      name: String/VR_To_AR_NormalMode
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 
+    vector2Variables: []
+    vector3Variables: []
+    colorVariables: []
+    rectVariables: []
+    quaternionVariables: []
+    gameObjectVariables:
+    - useVariable: 1
+      name: (singleton) Toolbox
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
+    - useVariable: 1
+      name: Obj/ARObject
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
+    - useVariable: 1
+      name: Obj/AR_UI
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
+    - useVariable: 1
+      name: Obj/Loading
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
+    - useVariable: 1
+      name: Obj/Main
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
+    - useVariable: 1
+      name: Obj/MainCamera
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
+    - useVariable: 1
+      name: Obj/Music
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
+    - useVariable: 1
+      name: Obj/QualityAssurance
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
+    - useVariable: 1
+      name: Obj/VR
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
+    objectVariables: []
+    materialVariables: []
+    textureVariables: []
+    arrayVariables: []
+    enumVariables: []
+    categories:
+    - 
+    variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  events:
+  - On
+  - Off
+  - Hit
+  - Leave
+  - Process
+  - TurnOff
+  - Click
+  - Language_Select
+  - Press
+  - TurnOn
+  - TurnOn_Loading
+  - TurnOff_Loading
+  - PageButton
+  - SwitchButton
+  - SwitchButton_Off
+  - SwitchButton_On
+  - AreaTextOff
+  - AreaTextOn
+  - SwitchButton_OK
+  - UGUI / ON BEGIN DRAG
+  - UGUI / ON BOOL VALUE CHANGED
+  - UGUI / ON CLICK
+  - UGUI / ON DRAG
+  - UGUI / ON DROP
+  - UGUI / ON END DRAG
+  - UGUI / ON END EDIT
+  - UGUI / ON FLOAT VALUE CHANGED
+  - UGUI / ON INT VALUE CHANGED
+  - UGUI / ON POINTER CLICK
+  - UGUI / ON POINTER DOWN
+  - UGUI / ON POINTER ENTER
+  - UGUI / ON POINTER EXIT
+  - UGUI / ON POINTER UP
+  - UGUI / ON VECTOR2 VALUE CHANGED
+  - Toggle
+  - PageOK
+  - PageDataOK
+  - TurnOffOK
+  - Open
+  - Close
+  - OpenOK
+  - CloseOK
+  - Open2
+  - Open2OK
+  - Open3
+  - Open3OK
+  - VR_SetupOK
+  - Open4
+  - Open4OK
+  - Rest
+  - FirstOpen
+  - ExitVR
+  - Loading
+  - LoadingOK
+  - Load
+  - LoadOK
+  - ProcessOK
+  - ARObjectOff
+  - Close2
+  - Close2OK
+  - AR_ON
+  - AR_Off
+  - DontNeedLoad
+  - Delete
+  - Open5
+  - Open5OK
+  - Default
+  - RecordSteps
+  - AO_Off
+  - AO_On
+  - AnimationEvent01
+  - AnimationEvent02
+  - ClickAgain
+  - Hide
+  - Reset
+  - GoTransparent
+  - AnimationEventTAM03
+  - TransparentToOri
+  - AnimationEventTAM01
+  - AnimationEventTAM02
+  - AnimationEventTAMBreak
+  - ToTransparent
+  - Transparent
+  - AnimationEvent03
+  - AnimationFinish

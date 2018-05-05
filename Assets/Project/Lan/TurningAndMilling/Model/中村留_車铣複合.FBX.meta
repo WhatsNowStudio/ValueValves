@@ -1,0 +1,276 @@
+fileFormatVersion: 2
+guid: 5f82c965648cbc745a8f5d3eceb0424e
+timeCreated: 1507001558
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: WY100 BASE
+    100002: WY100 Shell
+    100004: WY100 Shell Base
+    100006: WY100 Shell Door
+    100008: "WY100 \u659C\u5761"
+    100010: "WY100_\u5167\u5074\u677F"
+    100012: "WY100_\u64CB\u5C51\u677F"
+    100014: "\u4E0A\u5200\u5854"
+    100016: "\u4E0A\u5200\u5854_\u4E00\u822C\u5200\u5177\u5E95\u5EA7"
+    100018: "\u4E0A\u5200\u5854X\u8EF8"
+    100020: "\u4E0A\u5200\u5854Y\u8EF8"
+    100022: "\u4E0A\u5200\u5854Z\u8EF8"
+    100024: "\u4E0B\u5200\u5854"
+    100026: "\u4E0B\u5200\u5854_\u4E00\u822C\u5200\u5177\u5E95\u5EA7"
+    100028: "\u4E0B\u5200\u5854X\u8EF8"
+    100030: "\u4E0B\u5200\u5854Y\u8EF8"
+    100032: "\u4E0B\u5200\u5854Z\u8EF8"
+    100034: //RootNode
+    100036: "\u4E3B\u8EF8\u57FA\u5EA7"
+    100038: "\u4E3B\u8EF8\u982D"
+    100040: "\u526F\u4E3B\u8EF8\u5E95\u5EA7"
+    100042: "\u526F\u4E3B\u8EF8\u982D"
+    100044: Object001
+    100046: Object002
+    100048: Object003
+    100050: "\u4E0A\u5200\u5854_\u5207\u65B7\u5200"
+    100052: "\u4E0A\u5200\u5854_\u5916\u5F91\u6383\u5200+\u516D\u89D2\u9762\u94E3\u5200"
+    100054: "\u4E0A\u5200\u5854_\u5916\u5F91\u6383\u5200+\u516D\u89D2\u9762\u94E3\u5200\u5EA7"
+    100056: "\u4E0A\u5200\u5854_\u98DB\u6A5F\u7FFC\u66F2\u9762\u94E3\u5200"
+    100058: "\u4E0A\u5200\u5854_\u98DB\u6A5F\u7FFC\u66F2\u9762\u94E3\u5200\u5EA7"
+    100060: "\u4E0B\u5200\u5854_\u5207\u65B7\u5200"
+    100062: "\u4E0B\u5200\u5854_\u5916\u5F91\u6383\u5200+\u516D\u89D2\u9762\u94E3\u5200"
+    100064: "\u4E0B\u5200\u5854_\u5916\u5F91\u6383\u5200+\u516D\u89D2\u9762\u94E3\u5200_\u5200\u5EA7"
+    100066: "\u4E0B\u5200\u5854_\u98DB\u6A5F\u7FFC\u66F2\u9762\u94E3\u5200"
+    100068: "\u4E0B\u5200\u5854_\u98DB\u6A5F\u7FFC\u66F2\u9762\u94E3\u5200\u5EA7"
+    100070: Jaw
+    100072: Rectangle131
+    100074: Rectangle132
+    100076: "\u526F\u4E3B\u8EF8\u982DBack"
+    400000: WY100 BASE
+    400002: WY100 Shell
+    400004: WY100 Shell Base
+    400006: WY100 Shell Door
+    400008: "WY100 \u659C\u5761"
+    400010: "WY100_\u5167\u5074\u677F"
+    400012: "WY100_\u64CB\u5C51\u677F"
+    400014: "\u4E0A\u5200\u5854"
+    400016: "\u4E0A\u5200\u5854_\u4E00\u822C\u5200\u5177\u5E95\u5EA7"
+    400018: "\u4E0A\u5200\u5854X\u8EF8"
+    400020: "\u4E0A\u5200\u5854Y\u8EF8"
+    400022: "\u4E0A\u5200\u5854Z\u8EF8"
+    400024: "\u4E0B\u5200\u5854"
+    400026: "\u4E0B\u5200\u5854_\u4E00\u822C\u5200\u5177\u5E95\u5EA7"
+    400028: "\u4E0B\u5200\u5854X\u8EF8"
+    400030: "\u4E0B\u5200\u5854Y\u8EF8"
+    400032: "\u4E0B\u5200\u5854Z\u8EF8"
+    400034: //RootNode
+    400036: "\u4E3B\u8EF8\u57FA\u5EA7"
+    400038: "\u4E3B\u8EF8\u982D"
+    400040: "\u526F\u4E3B\u8EF8\u5E95\u5EA7"
+    400042: "\u526F\u4E3B\u8EF8\u982D"
+    400044: Object001
+    400046: Object002
+    400048: Object003
+    400050: "\u4E0A\u5200\u5854_\u5207\u65B7\u5200"
+    400052: "\u4E0A\u5200\u5854_\u5916\u5F91\u6383\u5200+\u516D\u89D2\u9762\u94E3\u5200"
+    400054: "\u4E0A\u5200\u5854_\u5916\u5F91\u6383\u5200+\u516D\u89D2\u9762\u94E3\u5200\u5EA7"
+    400056: "\u4E0A\u5200\u5854_\u98DB\u6A5F\u7FFC\u66F2\u9762\u94E3\u5200"
+    400058: "\u4E0A\u5200\u5854_\u98DB\u6A5F\u7FFC\u66F2\u9762\u94E3\u5200\u5EA7"
+    400060: "\u4E0B\u5200\u5854_\u5207\u65B7\u5200"
+    400062: "\u4E0B\u5200\u5854_\u5916\u5F91\u6383\u5200+\u516D\u89D2\u9762\u94E3\u5200"
+    400064: "\u4E0B\u5200\u5854_\u5916\u5F91\u6383\u5200+\u516D\u89D2\u9762\u94E3\u5200_\u5200\u5EA7"
+    400066: "\u4E0B\u5200\u5854_\u98DB\u6A5F\u7FFC\u66F2\u9762\u94E3\u5200"
+    400068: "\u4E0B\u5200\u5854_\u98DB\u6A5F\u7FFC\u66F2\u9762\u94E3\u5200\u5EA7"
+    400070: Jaw
+    400072: Rectangle131
+    400074: Rectangle132
+    400076: "\u526F\u4E3B\u8EF8\u982DBack"
+    2300000: WY100 BASE
+    2300002: WY100 Shell
+    2300004: WY100 Shell Base
+    2300006: WY100 Shell Door
+    2300008: "WY100 \u659C\u5761"
+    2300010: "WY100_\u5167\u5074\u677F"
+    2300012: "WY100_\u64CB\u5C51\u677F"
+    2300014: "\u4E0A\u5200\u5854"
+    2300016: "\u4E0A\u5200\u5854_\u4E00\u822C\u5200\u5177\u5E95\u5EA7"
+    2300018: "\u4E0A\u5200\u5854X\u8EF8"
+    2300020: "\u4E0A\u5200\u5854Y\u8EF8"
+    2300022: "\u4E0A\u5200\u5854Z\u8EF8"
+    2300024: "\u4E0B\u5200\u5854"
+    2300026: "\u4E0B\u5200\u5854_\u4E00\u822C\u5200\u5177\u5E95\u5EA7"
+    2300028: "\u4E0B\u5200\u5854X\u8EF8"
+    2300030: "\u4E0B\u5200\u5854Y\u8EF8"
+    2300032: "\u4E0B\u5200\u5854Z\u8EF8"
+    2300034: "\u4E3B\u8EF8\u57FA\u5EA7"
+    2300036: "\u4E3B\u8EF8\u982D"
+    2300038: "\u526F\u4E3B\u8EF8\u5E95\u5EA7"
+    2300040: "\u526F\u4E3B\u8EF8\u982D"
+    2300042: Object001
+    2300044: Object002
+    2300046: Object003
+    2300048: "\u4E0A\u5200\u5854_\u5207\u65B7\u5200"
+    2300050: "\u4E0A\u5200\u5854_\u5916\u5F91\u6383\u5200+\u516D\u89D2\u9762\u94E3\u5200"
+    2300052: "\u4E0A\u5200\u5854_\u5916\u5F91\u6383\u5200+\u516D\u89D2\u9762\u94E3\u5200\u5EA7"
+    2300054: "\u4E0A\u5200\u5854_\u98DB\u6A5F\u7FFC\u66F2\u9762\u94E3\u5200"
+    2300056: "\u4E0A\u5200\u5854_\u98DB\u6A5F\u7FFC\u66F2\u9762\u94E3\u5200\u5EA7"
+    2300058: "\u4E0B\u5200\u5854_\u5207\u65B7\u5200"
+    2300060: "\u4E0B\u5200\u5854_\u5916\u5F91\u6383\u5200+\u516D\u89D2\u9762\u94E3\u5200"
+    2300062: "\u4E0B\u5200\u5854_\u5916\u5F91\u6383\u5200+\u516D\u89D2\u9762\u94E3\u5200_\u5200\u5EA7"
+    2300064: "\u4E0B\u5200\u5854_\u98DB\u6A5F\u7FFC\u66F2\u9762\u94E3\u5200"
+    2300066: "\u4E0B\u5200\u5854_\u98DB\u6A5F\u7FFC\u66F2\u9762\u94E3\u5200\u5EA7"
+    2300068: Jaw
+    2300070: Rectangle131
+    2300072: Rectangle132
+    2300074: "\u526F\u4E3B\u8EF8\u982DBack"
+    3300000: WY100 BASE
+    3300002: WY100 Shell
+    3300004: WY100 Shell Base
+    3300006: WY100 Shell Door
+    3300008: "WY100 \u659C\u5761"
+    3300010: "WY100_\u5167\u5074\u677F"
+    3300012: "WY100_\u64CB\u5C51\u677F"
+    3300014: "\u4E0A\u5200\u5854"
+    3300016: "\u4E0A\u5200\u5854_\u4E00\u822C\u5200\u5177\u5E95\u5EA7"
+    3300018: "\u4E0A\u5200\u5854X\u8EF8"
+    3300020: "\u4E0A\u5200\u5854Y\u8EF8"
+    3300022: "\u4E0A\u5200\u5854Z\u8EF8"
+    3300024: "\u4E0B\u5200\u5854"
+    3300026: "\u4E0B\u5200\u5854_\u4E00\u822C\u5200\u5177\u5E95\u5EA7"
+    3300028: "\u4E0B\u5200\u5854X\u8EF8"
+    3300030: "\u4E0B\u5200\u5854Y\u8EF8"
+    3300032: "\u4E0B\u5200\u5854Z\u8EF8"
+    3300034: "\u4E3B\u8EF8\u57FA\u5EA7"
+    3300036: "\u4E3B\u8EF8\u982D"
+    3300038: "\u526F\u4E3B\u8EF8\u5E95\u5EA7"
+    3300040: "\u526F\u4E3B\u8EF8\u982D"
+    3300042: Object001
+    3300044: Object002
+    3300046: Object003
+    3300048: "\u4E0A\u5200\u5854_\u5207\u65B7\u5200"
+    3300050: "\u4E0A\u5200\u5854_\u5916\u5F91\u6383\u5200+\u516D\u89D2\u9762\u94E3\u5200"
+    3300052: "\u4E0A\u5200\u5854_\u5916\u5F91\u6383\u5200+\u516D\u89D2\u9762\u94E3\u5200\u5EA7"
+    3300054: "\u4E0A\u5200\u5854_\u98DB\u6A5F\u7FFC\u66F2\u9762\u94E3\u5200"
+    3300056: "\u4E0A\u5200\u5854_\u98DB\u6A5F\u7FFC\u66F2\u9762\u94E3\u5200\u5EA7"
+    3300058: "\u4E0B\u5200\u5854_\u5207\u65B7\u5200"
+    3300060: "\u4E0B\u5200\u5854_\u5916\u5F91\u6383\u5200+\u516D\u89D2\u9762\u94E3\u5200"
+    3300062: "\u4E0B\u5200\u5854_\u5916\u5F91\u6383\u5200+\u516D\u89D2\u9762\u94E3\u5200_\u5200\u5EA7"
+    3300064: "\u4E0B\u5200\u5854_\u98DB\u6A5F\u7FFC\u66F2\u9762\u94E3\u5200"
+    3300066: "\u4E0B\u5200\u5854_\u98DB\u6A5F\u7FFC\u66F2\u9762\u94E3\u5200\u5EA7"
+    3300068: Jaw
+    3300070: Rectangle131
+    3300072: Rectangle132
+    3300074: "\u526F\u4E3B\u8EF8\u982DBack"
+    4300000: "WY100 \u659C\u5761"
+    4300002: "\u4E0A\u5200\u5854Z\u8EF8"
+    4300004: "\u4E3B\u8EF8\u57FA\u5EA7"
+    4300006: WY100 Shell Base
+    4300008: WY100 Shell
+    4300010: "WY100_\u5167\u5074\u677F"
+    4300012: "WY100_\u64CB\u5C51\u677F"
+    4300014: WY100 Shell Door
+    4300016: WY100 BASE
+    4300018: "\u4E0B\u5200\u5854Z\u8EF8"
+    4300020: "\u526F\u4E3B\u8EF8\u5E95\u5EA7"
+    4300022: "\u4E0B\u5200\u5854X\u8EF8"
+    4300024: "\u4E0A\u5200\u5854X\u8EF8"
+    4300026: "\u526F\u4E3B\u8EF8\u982D"
+    4300028: "\u4E3B\u8EF8\u982D"
+    4300030: "\u4E0A\u5200\u5854Y\u8EF8"
+    4300032: "\u4E0B\u5200\u5854Y\u8EF8"
+    4300034: "\u4E0B\u5200\u5854"
+    4300036: "\u4E0A\u5200\u5854"
+    4300038: "\u4E0A\u5200\u5854_\u4E00\u822C\u5200\u5177\u5E95\u5EA7"
+    4300040: "\u4E0B\u5200\u5854_\u4E00\u822C\u5200\u5177\u5E95\u5EA7"
+    4300042: "\u4E0B\u5200\u5854_\u98DB\u6A5F\u7FFC\u66F2\u9762\u94E3\u5200\u5EA7"
+    4300044: "\u4E0B\u5200\u5854_\u98DB\u6A5F\u7FFC\u66F2\u9762\u94E3\u5200"
+    4300046: "\u4E0A\u5200\u5854_\u98DB\u6A5F\u7FFC\u66F2\u9762\u94E3\u5200\u5EA7"
+    4300048: "\u4E0A\u5200\u5854_\u98DB\u6A5F\u7FFC\u66F2\u9762\u94E3\u5200"
+    4300050: "\u4E0A\u5200\u5854_\u5916\u5F91\u6383\u5200+\u516D\u89D2\u9762\u94E3\u5200\u5EA7"
+    4300052: "\u4E0A\u5200\u5854_\u5916\u5F91\u6383\u5200+\u516D\u89D2\u9762\u94E3\u5200"
+    4300054: "\u4E0A\u5200\u5854_\u5207\u65B7\u5200"
+    4300056: "\u4E0B\u5200\u5854_\u5916\u5F91\u6383\u5200+\u516D\u89D2\u9762\u94E3\u5200_\u5200\u5EA7"
+    4300058: "\u4E0B\u5200\u5854_\u5207\u65B7\u5200"
+    4300060: "\u4E0B\u5200\u5854_\u5916\u5F91\u6383\u5200+\u516D\u89D2\u9762\u94E3\u5200"
+    4300062: Object001
+    4300064: Object002
+    4300066: Object003
+    4300068: Jaw
+    4300070: "\u526F\u4E3B\u8EF8\u982DBack"
+    4300072: Rectangle131
+    4300074: Rectangle132
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
