@@ -1,0 +1,178 @@
+{
+  "VF_8": {
+    "Title": {
+      "en": "en",
+      "tw": "tw",
+      "ch": "ch"
+    },
+    "ObjSelectButton": {
+      "1": {
+        "tw": "tw",
+        "en": "en",
+        "ch": "ch"
+      },
+      "2": {
+        "tw": "tw",
+        "en": "en",
+        "ch": "ch"
+      },
+      "3": {
+        "tw": "tw",
+        "en": "en",
+        "ch": "ch"
+      },
+      "4": {
+        "tw": "tw",
+        "en": "en",
+        "ch": "ch"
+      },
+      "5": {
+        "tw": "tw",
+        "en": "en",
+        "ch": "ch"
+      }
+    },
+    "Tag": {
+      "1": {
+        "Video": "Video.mp4",
+        "VideoPic": "VideoPic",
+        "VideoTitle_tw": "VideoTitle_tw",
+        "VideoTitle_en": "VideoTitle_en",
+        "VideoTitle_ch": "VideoTitle_ch",
+        "Pic": "Pic",
+        "PicTitle_tw": "PicTitle_tw",
+        "PicTitle_en": "PicTitle_en",
+        "PicTitle_ch": "PicTitle_ch",
+        "PicContent_tw": "PicContent_twPicContent_twPicContent_tw",
+        "PicContent_en": "PicContent_enPicContent_enPicContent_en",
+        "PicContent_ch": "PicContent_chPicContent_chPicContent_ch"
+      },
+      "2": {
+        "Video": "Video.mp4",
+        "VideoPic": "VideoPic",
+        "VideoTitle_tw": "VideoTitle_tw",
+        "VideoTitle_en": "VideoTitle_en",
+        "VideoTitle_ch": "VideoTitle_ch",
+        "Pic": "Pic",
+        "PicTitle_tw": "PicTitle_tw",
+        "PicTitle_en": "PicTitle_en",
+        "PicTitle_ch": "PicTitle_ch",
+        "PicContent_tw": "PicContent_twPicContent_twPicContent_tw",
+        "PicContent_en": "PicContent_enPicContent_enPicContent_en",
+        "PicContent_ch": "PicContent_chPicContent_chPicContent_ch"
+      },
+      "3": {
+        "Video": "Video.mp4",
+        "VideoPic": "VideoPic",
+        "VideoTitle_tw": "VideoTitle_tw",
+        "VideoTitle_en": "VideoTitle_en",
+        "VideoTitle_ch": "VideoTitle_ch",
+        "Pic": "Pic",
+        "PicTitle_tw": "PicTitle_tw",
+        "PicTitle_en": "PicTitle_en",
+        "PicTitle_ch": "PicTitle_ch",
+        "PicContent_tw": "PicContent_twPicContent_twPicContent_tw",
+        "PicContent_en": "PicContent_enPicContent_enPicContent_en",
+        "PicContent_ch": "PicContent_chPicContent_chPicContent_ch"
+      },
+      "4": {
+        "Video": "Video.mp4",
+        "VideoPic": "VideoPic",
+        "VideoTitle_tw": "VideoTitle_tw",
+        "VideoTitle_en": "VideoTitle_en",
+        "VideoTitle_ch": "VideoTitle_ch",
+        "Pic": "Pic",
+        "PicTitle_tw": "PicTitle_tw",
+        "PicTitle_en": "PicTitle_en",
+        "PicTitle_ch": "PicTitle_ch",
+        "PicContent_tw": "PicContent_twPicContent_twPicContent_tw",
+        "PicContent_en": "PicContent_enPicContent_enPicContent_en",
+        "PicContent_ch": "PicContent_chPicContent_chPicContent_ch"
+      },
+      "5": {
+        "Video": "Video.mp4",
+        "VideoPic": "VideoPic",
+        "VideoTitle_tw": "VideoTitle_tw",
+        "VideoTitle_en": "VideoTitle_en",
+        "VideoTitle_ch": "VideoTitle_ch",
+        "Pic": "Pic",
+        "PicTitle_tw": "PicTitle_tw",
+        "PicTitle_en": "PicTitle_en",
+        "PicTitle_ch": "PicTitle_ch",
+        "PicContent_tw": "PicContent_twPicContent_twPicContent_tw",
+        "PicContent_en": "PicContent_enPicContent_enPicContent_en",
+        "PicContent_ch": "PicContent_chPicContent_chPicContent_ch"
+      },
+      "6": {
+        "Video": "Video.mp4",
+        "VideoPic": "VideoPic",
+        "VideoTitle_tw": "VideoTitle_tw",
+        "VideoTitle_en": "VideoTitle_en",
+        "VideoTitle_ch": "VideoTitle_ch",
+        "Pic": "Pic",
+        "PicTitle_tw": "PicTitle_tw",
+        "PicTitle_en": "PicTitle_en",
+        "PicTitle_ch": "PicTitle_ch",
+        "PicContent_tw": "PicContent_twPicContent_twPicContent_tw",
+        "PicContent_en": "PicContent_enPicContent_enPicContent_en",
+        "PicContent_ch": "PicContent_chPicContent_chPicContent_ch"
+      },
+      "7": {
+        "Video": "Video.mp4",
+        "VideoPic": "VideoPic",
+        "VideoTitle_tw": "VideoTitle_tw",
+        "VideoTitle_en": "VideoTitle_en",
+        "VideoTitle_ch": "VideoTitle_ch",
+        "Pic": "Pic",
+        "PicTitle_tw": "PicTitle_tw",
+        "PicTitle_en": "PicTitle_en",
+        "PicTitle_ch": "PicTitle_ch",
+        "PicContent_tw": "PicContent_twPicContent_twPicContent_tw",
+        "PicContent_en": "PicContent_enPicContent_enPicContent_en",
+        "PicContent_ch": "PicContent_chPicContent_chPicContent_ch"
+      },
+      "8": {
+        "Video": "Video.mp4",
+        "VideoPic": "VideoPic",
+        "VideoTitle_tw": "VideoTitle_tw",
+        "VideoTitle_en": "VideoTitle_en",
+        "VideoTitle_ch": "VideoTitle_ch",
+        "Pic": "Pic",
+        "PicTitle_tw": "PicTitle_tw",
+        "PicTitle_en": "PicTitle_en",
+        "PicTitle_ch": "PicTitle_ch",
+        "PicContent_tw": "PicContent_twPicContent_twPicContent_tw",
+        "PicContent_en": "PicContent_enPicContent_enPicContent_en",
+        "PicContent_ch": "PicContent_chPicContent_chPicContent_ch"
+      },
+      "9": {
+        "Video": "Video.mp4",
+        "VideoPic": "VideoPic",
+        "VideoTitle_tw": "VideoTitle_tw",
+        "VideoTitle_en": "VideoTitle_en",
+        "VideoTitle_ch": "VideoTitle_ch",
+        "Pic": "Pic",
+        "PicTitle_tw": "PicTitle_tw",
+        "PicTitle_en": "PicTitle_en",
+        "PicTitle_ch": "PicTitle_ch",
+        "PicContent_tw": "PicContent_twPicContent_twPicContent_tw",
+        "PicContent_en": "PicContent_enPicContent_enPicContent_en",
+        "PicContent_ch": "PicContent_chPicContent_chPicContent_ch"
+      },
+      "10": {
+        "Video": "Video.mp4",
+        "VideoPic": "VideoPic",
+        "VideoTitle_tw": "VideoTitle_tw",
+        "VideoTitle_en": "VideoTitle_en",
+        "VideoTitle_ch": "VideoTitle_ch",
+        "Pic": "Pic",
+        "PicTitle_tw": "PicTitle_tw",
+        "PicTitle_en": "PicTitle_en",
+        "PicTitle_ch": "PicTitle_ch",
+        "PicContent_tw": "PicContent_twPicContent_twPicContent_tw",
+        "PicContent_en": "PicContent_enPicContent_enPicContent_en",
+        "PicContent_ch": "PicContent_chPicContent_chPicContent_ch"
+      }
+    }
+  }
+}

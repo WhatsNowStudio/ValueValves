@@ -69,7 +69,7 @@ MonoBehaviour:
       tooltip: 
       showInInspector: 0
       networkSync: 0
-      value: 
+      value: en
     - useVariable: 1
       name: String/RecordSteps/Content
       tooltip: 
