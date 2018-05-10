@@ -248,3 +248,6 @@ MonoBehaviour:
   - Transparent
   - AnimationEvent03
   - AnimationFinish
+  - GetTagJson
+  - GetTagJson_OK
+  - GetTagJson_Fail
