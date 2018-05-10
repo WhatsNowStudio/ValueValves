@@ -251,3 +251,5 @@ MonoBehaviour:
   - GetTagJson
   - GetTagJson_OK
   - GetTagJson_Fail
+  - TagUIClose
+  - TagUIOpen

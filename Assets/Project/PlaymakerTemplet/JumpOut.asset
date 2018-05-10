@@ -32,22 +32,20 @@ MonoBehaviour:
       hideUnused: 0
       transitions:
       - fsmEvent:
-          name: Go
-          isSystemEvent: 0
+          name: FINISHED
+          isSystemEvent: 1
           isGlobal: 0
         toState: "\u8A08\u7B97\u6700\u5C0F\u503C"
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
       actionData:
-        actionNames:
-        - HutongGames.PlayMaker.Actions.NextFrameEvent
-        customNames:
-        - 
-        actionEnabled: 01
-        actionIsOpen: 01
-        actionStartIndex: 00000000
-        actionHashCodes: 88611604
+        actionNames: []
+        customNames: []
+        actionEnabled: 
+        actionIsOpen: 
+        actionStartIndex: 
+        actionHashCodes: 
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -70,18 +68,16 @@ MonoBehaviour:
         fsmColorParams: []
         fsmRectParams: []
         fsmQuaternionParams: []
-        stringParams:
-        - Go
+        stringParams: []
         byteData: 
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 17000000
-        paramName:
-        - sendEvent
-        paramDataPos: 00000000
-        paramByteDataSize: 00000000
+        paramDataType: 
+        paramName: []
+        paramDataPos: 
+        paramByteDataSize: 
     - name: "\u8DF3\u51FA"
       description: 
       colorIndex: 0
@@ -429,6 +425,9 @@ MonoBehaviour:
         paramDataPos: 0000000000000000000000000100000002000000000000000400000001000000030000000500000000000000
         paramByteDataSize: 0000000000000000000000000000000000000000040000000100000000000000000000000100000000000000
     events:
+    - name: FINISHED
+      isSystemEvent: 1
+      isGlobal: 0
     - name: Done
       isSystemEvent: 0
       isGlobal: 0

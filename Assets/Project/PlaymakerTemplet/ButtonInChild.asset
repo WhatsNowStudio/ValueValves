@@ -9,7 +9,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1219815696, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
-  m_Name: Tag
+  m_Name: ButtonInChild
   m_EditorClassIdentifier: 
   category: General
   fsm:
@@ -632,23 +632,33 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 238
+        x: 225
         y: 251
         width: 100
-        height: 16
+        height: 32
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
-      transitions: []
+      transitions:
+      - fsmEvent:
+          name: Go
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: "\u7B49\u5F85\u6309\u4E0B"
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.SendEvent
+        - HutongGames.PlayMaker.Actions.NextFrameEvent
         customNames:
         - 
-        actionEnabled: 01
-        actionIsOpen: 01
-        actionStartIndex: 00000000
-        actionHashCodes: 5e69bb04
+        - 
+        actionEnabled: 0101
+        actionIsOpen: 0101
+        actionStartIndex: 0000000004000000
+        actionHashCodes: 5e69bb0488611604
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -711,19 +721,21 @@ MonoBehaviour:
         fsmQuaternionParams: []
         stringParams:
         - Click
+        - Go
         byteData: 00
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 1f000000170000000f00000001000000
+        paramDataType: 1f000000170000000f0000000100000017000000
         paramName:
         - eventTarget
         - sendEvent
         - delay
         - everyFrame
-        paramDataPos: 00000000000000000000000000000000
-        paramByteDataSize: 00000000000000000000000001000000
+        - sendEvent
+        paramDataPos: 0000000000000000000000000000000001000000
+        paramByteDataSize: 0000000000000000000000000100000000000000
     - name: "\u95DC\u9589"
       description: 
       colorIndex: 0
@@ -880,7 +892,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -907,7 +919,7 @@ MonoBehaviour:
     handleJointBreak2D: 0
     handleOnGUI: 0
     handleFixedUpdate: 0
-    handleLateUpdate: 0
+    handleLateUpdate: 1
     handleApplicationEvents: 0
     handleLegacyNetworking: 0
     handleAnimatorMove: 0
