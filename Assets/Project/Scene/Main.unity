@@ -113,7 +113,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &939310737
+--- !u!1001 &26407158
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -210,24 +210,9 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 224441828171960604, guid: d9c2dfdc5aa1910459a266a407ce7a49,
+    - target: {fileID: 114217106680014664, guid: d9c2dfdc5aa1910459a266a407ce7a49,
         type: 2}
-      propertyPath: m_AnchorMin.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224441828171960604, guid: d9c2dfdc5aa1910459a266a407ce7a49,
-        type: 2}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224441828171960604, guid: d9c2dfdc5aa1910459a266a407ce7a49,
-        type: 2}
-      propertyPath: m_SizeDelta.x
-      value: 292
-      objectReference: {fileID: 0}
-    - target: {fileID: 224771793106285540, guid: d9c2dfdc5aa1910459a266a407ce7a49,
-        type: 2}
-      propertyPath: m_SizeDelta.y
+      propertyPath: fsm.preprocessed
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -419,7 +404,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previewOnGUI: 1
   enableGUILayout: 1
-  drawStateLabels: 1
+  drawStateLabels: 0
   enableStateLabelsInBuilds: 0
   GUITextureStateLabels: 1
   GUITextStateLabels: 1
