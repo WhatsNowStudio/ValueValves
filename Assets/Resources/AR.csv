@@ -1,14 +1,16 @@
 ID,original,tw,ch,en
-Instructions_AR_Title0,,掃描AR辨識圖,ARマーカーをスキャン,Scan AR recognition map
-Instructions_AR_Content0,,掃描辨識圖卡，觀看節流閥。,ARマーカーをスキャンして、四つの加工プロセス・3Dアニメーションをご覧頂けます。,Scan the AR mark.You can watch the four process animation.
-Instructions_AR_Title1,,切換成3D模式,3Dモードに切り替え,Switch to 3D mode
-Instructions_AR_Content1,,切換3D功能，觀看節流閥。,3Dモードに切り替えて、四つの加工プロセス・3Dアニメーションをご覧頂けます。,You can switch 3D mode and watch the four process animation.
-Instructions_AR_Title2,,切換節流閥,加工プロセス・3Dアニメの切り替え,Switch four process
-Instructions_AR_Content2,,點擊左下角按鈕，切換節流閥。,左下にある加工プロセス状態ボタンをクリックして、四つの加工プロセスを切り替えることが可能です。,Click the four process button and will able to switch the four process animation.
+Instructions_AR_Title0,,掃描AR辨識圖,掃描AR辨識圖,Scan AR recognition map
+Instructions_AR_Content0,,掃描辨識圖卡，觀看節流閥。,掃描辨識圖卡，觀看節流閥。,Scan the AR mark.You can watch the four process animation.
+Instructions_AR_Title1,,切換成3D模式,切換成3D模式,Switch to 3D mode
+Instructions_AR_Content1,,切換3D功能，觀看節流閥。,切換3D功能，觀看節流閥。,You can switch 3D mode and watch the four process animation.
+Instructions_AR_Title2,,節流閥拆解,節流閥拆解,Throttle dismantling
+Instructions_AR_Content2,,雙指張開可將節流閥拆解，反之將節流閥合併。,雙指張開可將節流閥拆解，反之將節流閥合併。,"The finger can be opened and the throttle can be disassembled. Otherwise, the throttle can be combined."
+Instructions_AR_Title3,,剖面看更多,剖面看更多,Section look more!
+Instructions_AR_Content3,,點擊剖面按鈕，將出現不同的部位說明唷!,點擊剖面按鈕，將出現不同的部位說明唷!,Click on the section button and different parts will appear
 PageDone,,開始,スタート,Start
 PageBack,,上一步,前へ戻る,Previous
 PageNext,,下一步,次へ進む,Next step
-VF_8,,VF_8,VF_8,VF_8
+VF_8,,三偏心蝶閥-VF_8,三偏心蝶閥-VF_8,VF_8
 AR_Title,,請掃描一個AR標示，或從AR切換至3D。,ARマーカーを一つ選んでスキャンしたり、或いは3Dモードに切り替え,Please scan an AR mark or switch the mode from AR to 3D.
 Loading,Loading...,讀取中...,読み込み中...,Loading...
 Select_Canvas_Ttile,,多種上座可搭配,多种上座可搭配,A variety of seats can match

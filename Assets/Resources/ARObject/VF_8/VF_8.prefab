@@ -11653,7 +11653,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 0101010101
-        actionIsOpen: 0000000001
+        actionIsOpen: 0101010101
         actionStartIndex: 000000000f000000120000001900000020000000
         actionHashCodes: d9ade603c030f10315a3be0515a3be050c0e5502
         unityObjectParams: []
@@ -11685,13 +11685,13 @@ MonoBehaviour:
           networkSync: 0
           value: 
         - useVariable: 1
-          name: String/Public
+          name: String/ID
           tooltip: 
           showInInspector: 0
           networkSync: 0
           value: 
         - useVariable: 1
-          name: String/Json/get
+          name: String/Public
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -11787,13 +11787,13 @@ MonoBehaviour:
           networkSync: 0
           value: 
         - useVariable: 1
-          name: String/Public
+          name: String/ID
           tooltip: 
           showInInspector: 0
           networkSync: 0
           value: 
         - useVariable: 1
-          name: String/Json/get
+          name: String/Public
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -11851,7 +11851,7 @@ MonoBehaviour:
             stringValues: []
             vector4Values: []
             objectReferences: []
-        - variableName: String/Json/get
+        - variableName: String/Public
           objectType: UnityEngine.Object
           useVariable: 1
           type: 4
@@ -12023,7 +12023,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 0101
-        actionIsOpen: 0000
+        actionIsOpen: 0100
         actionStartIndex: 000000000d000000
         actionHashCodes: 27ffbc035e69bb04
         unityObjectParams: []
@@ -12075,7 +12075,7 @@ MonoBehaviour:
         layoutOptionParams: []
         fsmStringParams:
         - useVariable: 1
-          name: String/Json/get
+          name: String/Public
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -12340,6 +12340,12 @@ MonoBehaviour:
       boolVariables: []
       stringVariables:
       - useVariable: 1
+        name: String/ID
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 
+      - useVariable: 1
         name: String/Json/Main
         tooltip: 
         showInInspector: 0
@@ -12467,7 +12473,7 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 000000000000000000000000000000000000000000000000000000000000000000000000
+      variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
     description: 
     docUrl: 
     showStateLabel: 0
