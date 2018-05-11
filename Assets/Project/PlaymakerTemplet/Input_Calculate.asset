@@ -762,15 +762,23 @@ MonoBehaviour:
       transitions: []
       actionData:
         actionNames:
+        - HutongGames.PlayMaker.Actions.SetFloatValue
+        - HutongGames.PlayMaker.Actions.SetFloatValue
+        - HutongGames.PlayMaker.Actions.SetFloatValue
+        - HutongGames.PlayMaker.Actions.SetFloatValue
         - HutongGames.PlayMaker.Actions.GetTouchCount
         - HutongGames.PlayMaker.Actions.IntSwitch
         customNames:
         - 
         - 
-        actionEnabled: 0101
-        actionIsOpen: 0101
-        actionStartIndex: 0000000002000000
-        actionHashCodes: bae02700092dca00
+        - 
+        - 
+        - 
+        - 
+        actionEnabled: 010101010101
+        actionIsOpen: 000000000101
+        actionStartIndex: 000000000300000006000000090000000c0000000e000000
+        actionHashCodes: 9845b3059845b3059845b3059845b305bae02700092dca00
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -785,7 +793,55 @@ MonoBehaviour:
         fsmVarParams: []
         fsmArrayParams: []
         fsmEnumParams: []
-        fsmFloatParams: []
+        fsmFloatParams:
+        - useVariable: 1
+          name: Float/FingerDistanceSpeed
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: Float/FingerSpeed
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: Float/FingerSpeedY
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: Float/FingerDistance
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
         fsmIntParams:
         - useVariable: 1
           name: Int/TouchCount
@@ -820,15 +876,27 @@ MonoBehaviour:
         stringParams:
         - 1
         - 2
-        byteData: 0101
+        byteData: 000000000101
         arrayParamSizes: 0200000002000000
         arrayParamTypes:
         - HutongGames.PlayMaker.FsmInt
         - HutongGames.PlayMaker.FsmEvent
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 1000000001000000100000000c00000010000000100000000c000000170000001700000001000000
+        paramDataType: 0f0000000f000000010000000f0000000f000000010000000f0000000f000000010000000f0000000f000000010000001000000001000000100000000c00000010000000100000000c000000170000001700000001000000
         paramName:
+        - floatVariable
+        - floatValue
+        - everyFrame
+        - floatVariable
+        - floatValue
+        - everyFrame
+        - floatVariable
+        - floatValue
+        - everyFrame
+        - floatVariable
+        - floatValue
+        - everyFrame
         - storeCount
         - everyFrame
         - intVariable
@@ -839,8 +907,8 @@ MonoBehaviour:
         - 
         - 
         - everyFrame
-        paramDataPos: 00000000000000000100000000000000020000000300000001000000000000000100000001000000
-        paramByteDataSize: 00000000010000000000000000000000000000000000000000000000000000000000000001000000
+        paramDataPos: 00000000010000000000000002000000030000000100000004000000050000000200000006000000070000000300000000000000040000000100000000000000020000000300000001000000000000000100000005000000
+        paramByteDataSize: 00000000000000000100000000000000000000000100000000000000000000000100000000000000000000000100000000000000010000000000000000000000000000000000000000000000000000000000000001000000
     - name: "\u6E05\u7A7A\u6578\u503C"
       description: 
       colorIndex: 2
@@ -855,8 +923,8 @@ MonoBehaviour:
       hideUnused: 0
       transitions:
       - fsmEvent:
-          name: Go
-          isSystemEvent: 0
+          name: FINISHED
+          isSystemEvent: 1
           isGlobal: 0
         toState: "\u8A08\u7B97\u901F\u5EA6"
         linkStyle: 0
@@ -868,17 +936,15 @@ MonoBehaviour:
         - HutongGames.PlayMaker.Actions.SetFloatValue
         - HutongGames.PlayMaker.Actions.SetFloatValue
         - HutongGames.PlayMaker.Actions.SetFloatValue
-        - HutongGames.PlayMaker.Actions.NextFrameEvent
         customNames:
         - 
         - 
         - 
         - 
-        - 
-        actionEnabled: 0101010101
-        actionIsOpen: 0101010101
-        actionStartIndex: 000000000300000006000000090000000c000000
-        actionHashCodes: 9845b3059845b3059845b3059845b30588611604
+        actionEnabled: 01010101
+        actionIsOpen: 00000000
+        actionStartIndex: 00000000030000000600000009000000
+        actionHashCodes: 9845b3059845b3059845b3059845b305
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -949,14 +1015,13 @@ MonoBehaviour:
         fsmColorParams: []
         fsmRectParams: []
         fsmQuaternionParams: []
-        stringParams:
-        - Go
+        stringParams: []
         byteData: 00000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 0f0000000f000000010000000f0000000f000000010000000f0000000f000000010000000f0000000f0000000100000017000000
+        paramDataType: 0f0000000f000000010000000f0000000f000000010000000f0000000f000000010000000f0000000f00000001000000
         paramName:
         - floatVariable
         - floatValue
@@ -970,9 +1035,8 @@ MonoBehaviour:
         - floatVariable
         - floatValue
         - everyFrame
-        - sendEvent
-        paramDataPos: 00000000010000000000000002000000030000000100000004000000050000000200000006000000070000000300000000000000
-        paramByteDataSize: 00000000000000000100000000000000000000000100000000000000000000000100000000000000000000000100000000000000
+        paramDataPos: 000000000100000000000000020000000300000001000000040000000500000002000000060000000700000003000000
+        paramByteDataSize: 000000000000000001000000000000000000000001000000000000000000000001000000000000000000000001000000
     - name: "\u6E05\u7A7A\u6578\u503C-"
       description: 
       colorIndex: 3
@@ -987,8 +1051,8 @@ MonoBehaviour:
       hideUnused: 0
       transitions:
       - fsmEvent:
-          name: Go
-          isSystemEvent: 0
+          name: FINISHED
+          isSystemEvent: 1
           isGlobal: 0
         toState: "\u8A08\u7B97\u96D9\u6307\u8DDD\u96E2"
         linkStyle: 0
@@ -1000,17 +1064,15 @@ MonoBehaviour:
         - HutongGames.PlayMaker.Actions.SetFloatValue
         - HutongGames.PlayMaker.Actions.SetFloatValue
         - HutongGames.PlayMaker.Actions.SetFloatValue
-        - HutongGames.PlayMaker.Actions.NextFrameEvent
         customNames:
         - 
         - 
         - 
         - 
-        - 
-        actionEnabled: 0101010101
-        actionIsOpen: 0101010101
-        actionStartIndex: 000000000300000006000000090000000c000000
-        actionHashCodes: 9845b3059845b3059845b3059845b30588611604
+        actionEnabled: 01010101
+        actionIsOpen: 01010101
+        actionStartIndex: 00000000030000000600000009000000
+        actionHashCodes: 9845b3059845b3059845b3059845b305
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -1081,14 +1143,13 @@ MonoBehaviour:
         fsmColorParams: []
         fsmRectParams: []
         fsmQuaternionParams: []
-        stringParams:
-        - Go
+        stringParams: []
         byteData: 00000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 0f0000000f000000010000000f0000000f000000010000000f0000000f000000010000000f0000000f0000000100000017000000
+        paramDataType: 0f0000000f000000010000000f0000000f000000010000000f0000000f000000010000000f0000000f00000001000000
         paramName:
         - floatVariable
         - floatValue
@@ -1102,9 +1163,8 @@ MonoBehaviour:
         - floatVariable
         - floatValue
         - everyFrame
-        - sendEvent
-        paramDataPos: 00000000010000000000000002000000030000000100000004000000050000000200000006000000070000000300000000000000
-        paramByteDataSize: 00000000000000000100000000000000000000000100000000000000000000000100000000000000000000000100000000000000
+        paramDataPos: 000000000100000000000000020000000300000001000000040000000500000002000000060000000700000003000000
+        paramByteDataSize: 000000000000000001000000000000000000000001000000000000000000000001000000000000000000000001000000
     - name: "\u8A08\u7B97\u901F\u5EA6"
       description: 
       colorIndex: 2
@@ -1121,8 +1181,8 @@ MonoBehaviour:
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.GetTouchCount
-        - HutongGames.PlayMaker.Actions.IntSwitch
         - HutongGames.PlayMaker.Actions.GetTouchInfo
+        - HutongGames.PlayMaker.Actions.IntSwitch
         - HutongGames.PlayMaker.Actions.FloatOperator
         - HutongGames.PlayMaker.Actions.FloatOperator
         customNames:
@@ -1132,9 +1192,9 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 0101010101
-        actionIsOpen: 0000010101
-        actionStartIndex: 00000000020000000a000000150000001a000000
-        actionHashCodes: bae02700092dca00ae7857010cdb04050cdb0405
+        actionIsOpen: 0001000101
+        actionStartIndex: 00000000020000000d000000150000001a000000
+        actionHashCodes: bae02700ae785701092dca000cdb04050cdb0405
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -1191,7 +1251,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 100
+          value: 300
         - useVariable: 1
           name: Float/FingerSpeed
           tooltip: 
@@ -1209,7 +1269,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: -100
+          value: -300
         - useVariable: 1
           name: Float/FingerSpeedY
           tooltip: 
@@ -1219,6 +1279,18 @@ MonoBehaviour:
         fsmIntParams:
         - useVariable: 1
           name: Int/TouchCount
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -1241,18 +1313,6 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 2
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
         fsmBoolParams:
         - useVariable: 0
           name: 
@@ -1287,17 +1347,9 @@ MonoBehaviour:
         - HutongGames.PlayMaker.FsmEvent
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 1000000001000000100000000c00000010000000100000000c00000017000000170000000100000010000000110000001c0000000f0000000f0000001c0000000f0000000f0000000f00000010000000010000000f0000000f000000070000000f000000010000000f0000000f000000070000000f00000001000000
+        paramDataType: 100000000100000010000000110000001c0000000f0000000f0000001c0000000f0000000f0000000f0000001000000001000000100000000c00000010000000100000000c0000001700000017000000010000000f0000000f000000070000000f000000010000000f0000000f000000070000000f00000001000000
         paramName:
         - storeCount
-        - everyFrame
-        - intVariable
-        - compareTo
-        - 
-        - 
-        - sendEvent
-        - 
-        - 
         - everyFrame
         - fingerId
         - normalize
@@ -1310,18 +1362,26 @@ MonoBehaviour:
         - storeDeltaTime
         - storeTapCount
         - everyFrame
-        - float1
-        - float2
-        - operation
-        - storeResult
+        - intVariable
+        - compareTo
+        - 
+        - 
+        - sendEvent
+        - 
+        - 
         - everyFrame
         - float1
         - float2
         - operation
         - storeResult
         - everyFrame
-        paramDataPos: 00000000000000000100000000000000020000000300000001000000000000000100000001000000040000000000000000000000000000000100000001000000020000000300000004000000050000000200000005000000060000000300000007000000070000000800000009000000080000000a0000000c000000
-        paramByteDataSize: 00000000010000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000400000000000000010000000000000000000000040000000000000001000000
+        - float1
+        - float2
+        - operation
+        - storeResult
+        - everyFrame
+        paramDataPos: 00000000000000000100000000000000000000000000000001000000010000000200000003000000040000000200000001000000030000000000000004000000050000000100000000000000010000000200000005000000060000000300000007000000070000000800000009000000080000000a0000000c000000
+        paramByteDataSize: 00000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000100000000000000000000000400000000000000010000000000000000000000040000000000000001000000
     events:
     - name: FINISHED
       isSystemEvent: 1

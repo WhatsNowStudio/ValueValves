@@ -19,7 +19,7 @@ MonoBehaviour:
     startState: Start
     states:
     - name: Start
-      description: 
+      description: "#\u7C21\u55AE\u5237\u65B0"
       colorIndex: 0
       position:
         serializedVersion: 2
@@ -42,12 +42,18 @@ MonoBehaviour:
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.GetChild
+        - HutongGames.PlayMaker.Actions.uGuiCanvasGroupSetAlpha
+        - HutongGames.PlayMaker.Actions.ActivateGameObject
+        - HutongGames.PlayMaker.Actions.ActivateGameObject
         customNames:
         - 
-        actionEnabled: 01
-        actionIsOpen: 01
-        actionStartIndex: 00000000
-        actionHashCodes: 184b5704
+        - 
+        - 
+        - 
+        actionEnabled: 01010101
+        actionIsOpen: 01010101
+        actionStartIndex: 0000000004000000080000000d000000
+        actionHashCodes: 184b570452cb5203b2cf1000b2cf1000
         unityObjectParams: []
         fsmGameObjectParams:
         - useVariable: 1
@@ -61,6 +67,30 @@ MonoBehaviour:
           gameObject:
             useVariable: 0
             name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        - ownerOption: 1
+          gameObject:
+            useVariable: 1
+            name: Obj/Button
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        - ownerOption: 1
+          gameObject:
+            useVariable: 1
+            name: Obj/Button
             tooltip: 
             showInInspector: 0
             networkSync: 0
@@ -88,28 +118,78 @@ MonoBehaviour:
         fsmVarParams: []
         fsmArrayParams: []
         fsmEnumParams: []
-        fsmFloatParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
         fsmIntParams: []
-        fsmBoolParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
         fsmVector2Params: []
         fsmVector3Params: []
         fsmColorParams: []
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 
+        byteData: 0000000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 14000000120000001200000013000000
+        paramDataType: 14000000120000001200000013000000140000000f000000110000000100000014000000110000001100000001000000010000001400000011000000110000000100000001000000
         paramName:
         - gameObject
         - childName
         - withTag
         - storeResult
-        paramDataPos: 00000000000000000100000000000000
-        paramByteDataSize: 00000000000000000000000000000000
+        - gameObject
+        - alpha
+        - resetOnExit
+        - everyFrame
+        - gameObject
+        - activate
+        - recursive
+        - resetOnExit
+        - everyFrame
+        - gameObject
+        - activate
+        - recursive
+        - resetOnExit
+        - everyFrame
+        paramDataPos: 000000000000000001000000000000000100000000000000000000000000000002000000010000000200000001000000020000000300000003000000040000000300000004000000
+        paramByteDataSize: 000000000000000000000000000000000000000000000000000000000100000000000000000000000000000001000000010000000000000000000000000000000100000001000000
     - name: "\u6309\u9215\u6D88\u5931"
       description: 
       colorIndex: 0
@@ -892,7 +972,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -919,7 +999,7 @@ MonoBehaviour:
     handleJointBreak2D: 0
     handleOnGUI: 0
     handleFixedUpdate: 0
-    handleLateUpdate: 1
+    handleLateUpdate: 0
     handleApplicationEvents: 0
     handleLegacyNetworking: 0
     handleAnimatorMove: 0
