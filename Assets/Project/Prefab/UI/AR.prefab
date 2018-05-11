@@ -7007,7 +7007,7 @@ MonoBehaviour:
         serializedVersion: 2
         x: 699.5
         y: 174.5
-        width: 132
+        width: 142
         height: 16
       isBreakpoint: 0
       isSequence: 0
@@ -7826,14 +7826,6 @@ MonoBehaviour:
       linkConstraint: 0
       colorIndex: 0
     - fsmEvent:
-        name: AR_Off
-        isSystemEvent: 0
-        isGlobal: 1
-      toState: "----\u8AAA\u660EUI\u95DC\u9589----"
-      linkStyle: 0
-      linkConstraint: 0
-      colorIndex: 0
-    - fsmEvent:
         name: AR_ON
         isSystemEvent: 0
         isGlobal: 1
@@ -7854,6 +7846,14 @@ MonoBehaviour:
         isSystemEvent: 0
         isGlobal: 1
       toState: "\u4E0A\u8CC7\u6599?"
+      linkStyle: 0
+      linkConstraint: 0
+      colorIndex: 0
+    - fsmEvent:
+        name: AR_Off
+        isSystemEvent: 0
+        isGlobal: 1
+      toState: "\u522A\u96643D"
       linkStyle: 0
       linkConstraint: 0
       colorIndex: 0
@@ -26535,8 +26535,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 290, y: 0}
+  m_SizeDelta: {x: 580, y: 0}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!224 &224287811712577538
 RectTransform:
