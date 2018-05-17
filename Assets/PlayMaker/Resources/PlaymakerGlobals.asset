@@ -253,3 +253,4 @@ MonoBehaviour:
   - GetTagJson_Fail
   - TagUIClose
   - TagUIOpen
+  - MapLight
