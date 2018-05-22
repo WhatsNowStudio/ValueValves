@@ -1559,7 +1559,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1782305604338180
 GameObject:
   m_ObjectHideFlags: 1
@@ -7956,7 +7956,7 @@ MonoBehaviour:
   m_ChildAlignment: 2
   m_Spacing: 40
   m_ChildForceExpandWidth: 0
-  m_ChildForceExpandHeight: 1
+  m_ChildForceExpandHeight: 0
   m_ChildControlWidth: 1
   m_ChildControlHeight: 1
 --- !u!114 &114199123537331604
@@ -8750,14 +8750,14 @@ MonoBehaviour:
     startState: "\u53D6\u5F97JSON-"
     states:
     - name: "\u8B80\u5F71\u7247\u7E2E\u5716"
-      description: 
+      description: "#\u95DC\u7E2E\u5716"
       colorIndex: 5
       position:
         serializedVersion: 2
         x: 452
         y: 421
         width: 100
-        height: 32
+        height: 48
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
@@ -8767,6 +8767,14 @@ MonoBehaviour:
           isSystemEvent: 0
           isGlobal: 0
         toState: "\u5BEB\u5F71\u7247\u7E2E\u5716"
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: Error
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: "\u8B80\u5716\u7247"
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -8780,7 +8788,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 010101
-        actionIsOpen: 010101
+        actionIsOpen: 010000
         actionStartIndex: 00000000050000000c000000
         actionHashCodes: b2cf10007370ae05ff2e8504
         unityObjectParams: []
@@ -8915,12 +8923,12 @@ MonoBehaviour:
         paramDataPos: 00000000000000000100000000000000010000000000000000000000010000000200000002000000030000000200000004000000000000000000000001000000
         paramByteDataSize: 00000000000000000000000001000000010000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000
     - name: "\u5BEB\u5F71\u7247\u7E2E\u5716"
-      description: 
+      description: "#\u958B\u7E2E\u5716"
       colorIndex: 5
       position:
         serializedVersion: 2
         x: 453
-        y: 476
+        y: 503
         width: 100
         height: 32
       isBreakpoint: 0
@@ -9424,7 +9432,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 0101010101
-        actionIsOpen: 0101010000
+        actionIsOpen: 0000000000
         actionStartIndex: 0000000004000000080000000c00000011000000
         actionHashCodes: 09fbab0409fbab0409fbab04b2cf100088611604
         unityObjectParams: []
@@ -9559,18 +9567,26 @@ MonoBehaviour:
         paramDataPos: 000000000000000000000000000000000100000001000000010000000100000002000000020000000200000002000000030000000300000004000000030000000400000000000000
         paramByteDataSize: 000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000100000000000000
     - name: "\u8B80\u5716\u7247"
-      description: 
+      description: "#\u95DC\u5716\u7247"
       colorIndex: 5
       position:
         serializedVersion: 2
-        x: 458
-        y: 544
+        x: 455
+        y: 572
         width: 100
-        height: 32
+        height: 48
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
       transitions:
+      - fsmEvent:
+          name: Error
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: "\u5B8C\u6210\u558A\u8072"
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
       - fsmEvent:
           name: Done
           isSystemEvent: 0
@@ -9581,18 +9597,28 @@ MonoBehaviour:
         colorIndex: 0
       actionData:
         actionNames:
+        - HutongGames.PlayMaker.Actions.ActivateGameObject
         - HutongGames.PlayMaker.Actions.BuildString
         - HutongGames.PlayMaker.Actions.ResourcesLoad
         customNames:
         - 
         - 
-        actionEnabled: 0101
-        actionIsOpen: 0101
-        actionStartIndex: 0000000007000000
-        actionHashCodes: 7370ae05ff2e8504
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 010000
+        actionStartIndex: 00000000050000000c000000
+        actionHashCodes: b2cf10007370ae05ff2e8504
         unityObjectParams: []
         fsmGameObjectParams: []
-        fsmOwnerDefaultParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 1
+          gameObject:
+            useVariable: 1
+            name: Obj/Pic/All
+            tooltip: 
+            showInInspector: 1
+            networkSync: 0
+            value: {fileID: 1956582333419582}
         animationCurveParams: []
         functionCallParams: []
         fsmTemplateControlParams: []
@@ -9666,6 +9692,18 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
           value: 1
         fsmVector2Params: []
         fsmVector3Params: []
@@ -9674,15 +9712,20 @@ MonoBehaviour:
         fsmQuaternionParams: []
         stringParams:
         - Done
-        - Done
-        byteData: 00
+        - Error
+        byteData: 000000
         arrayParamSizes: 02000000
         arrayParamTypes:
         - HutongGames.PlayMaker.FsmString
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 0c00000012000000120000001200000011000000120000000100000012000000270000001700000017000000
+        paramDataType: 14000000110000001100000001000000010000000c00000012000000120000001200000011000000120000000100000012000000270000001700000017000000
         paramName:
+        - gameObject
+        - activate
+        - recursive
+        - resetOnExit
+        - everyFrame
         - stringParts
         - 
         - 
@@ -9694,15 +9737,15 @@ MonoBehaviour:
         - storeAsset
         - successEvent
         - failureEvent
-        paramDataPos: 0000000000000000010000000200000000000000030000000000000004000000000000000000000001000000
-        paramByteDataSize: 0000000000000000000000000000000000000000000000000100000000000000000000000000000000000000
+        paramDataPos: 00000000000000000100000000000000010000000000000000000000010000000200000002000000030000000200000004000000000000000000000001000000
+        paramByteDataSize: 00000000000000000000000001000000010000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000
     - name: "\u5BEB\u5716\u7247"
-      description: 
+      description: "#\u958B\u5716\u7247"
       colorIndex: 5
       position:
         serializedVersion: 2
-        x: 459
-        y: 599
+        x: 453
+        y: 657.02344
         width: 100
         height: 32
       isBreakpoint: 0
@@ -9720,23 +9763,33 @@ MonoBehaviour:
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.uGuiImageSetSprite
+        - HutongGames.PlayMaker.Actions.ActivateGameObject
         customNames:
         - 
-        actionEnabled: 01
-        actionIsOpen: 01
-        actionStartIndex: 00000000
-        actionHashCodes: c4b05004
+        - 
+        actionEnabled: 0101
+        actionIsOpen: 0101
+        actionStartIndex: 0000000003000000
+        actionHashCodes: c4b05004b2cf1000
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
         - ownerOption: 1
           gameObject:
             useVariable: 1
-            name: Obj/Pic
+            name: Obj/Pic/All
             tooltip: 
             showInInspector: 1
             networkSync: 0
-            value: {fileID: 1139162237515542}
+            value: {fileID: 1956582333419582}
+        - ownerOption: 1
+          gameObject:
+            useVariable: 1
+            name: Obj/Pic/All
+            tooltip: 
+            showInInspector: 1
+            networkSync: 0
+            value: {fileID: 1956582333419582}
         animationCurveParams: []
         functionCallParams: []
         fsmTemplateControlParams: []
@@ -9764,24 +9817,41 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
         fsmVector2Params: []
         fsmVector3Params: []
         fsmColorParams: []
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 
+        byteData: 0000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 140000001800000011000000
+        paramDataType: 1400000018000000110000001400000011000000110000000100000001000000
         paramName:
         - gameObject
         - sprite
         - resetOnExit
-        paramDataPos: 000000000000000000000000
-        paramByteDataSize: 000000000000000000000000
+        - gameObject
+        - activate
+        - recursive
+        - resetOnExit
+        - everyFrame
+        paramDataPos: 0000000000000000000000000100000001000000020000000000000001000000
+        paramByteDataSize: 0000000000000000000000000000000000000000000000000100000001000000
     - name: "\u5B8C\u6210\u558A\u8072"
       description: 
       colorIndex: 5
@@ -10431,7 +10501,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 010101
-        actionIsOpen: 010101
+        actionIsOpen: 000001
         actionStartIndex: 000000000300000012000000
         actionHashCodes: 1012c100d9ade60388611604
         unityObjectParams: []
@@ -10626,7 +10696,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 0101
-        actionIsOpen: 0000
+        actionIsOpen: 0001
         actionStartIndex: 0000000003000000
         actionHashCodes: c030f10315a3be05
         unityObjectParams: []
@@ -10852,7 +10922,13 @@ MonoBehaviour:
       quaternionVariables: []
       gameObjectVariables:
       - useVariable: 1
-        name: Obj/Pic
+        name: Obj/Pic/All
+        tooltip: 
+        showInInspector: 1
+        networkSync: 0
+        value: {fileID: 1956582333419582}
+      - useVariable: 1
+        name: Obj/Pic/Image
         tooltip: 
         showInInspector: 1
         networkSync: 0
@@ -10895,7 +10971,7 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+      variableCategoryIDs: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
     description: 
     docUrl: 
     showStateLabel: 0
@@ -10905,7 +10981,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -17317,7 +17393,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 1
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -26235,7 +26311,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.000028836115}
+  m_AnchoredPosition: {x: 0, y: 0.0000019034451}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!224 &224126477170890668
@@ -26904,7 +26980,7 @@ RectTransform:
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 50, y: 25}
   m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 0.5, y: 1}
 --- !u!224 &224378840380343360
 RectTransform:
   m_ObjectHideFlags: 1
@@ -26921,10 +26997,10 @@ RectTransform:
   m_Father: {fileID: 224539073347879052}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 300, y: -40}
+  m_SizeDelta: {x: 600, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224393562256798218
 RectTransform:
@@ -27274,10 +27350,10 @@ RectTransform:
   m_Father: {fileID: 224239619315323506}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 300, y: -160}
+  m_SizeDelta: {x: 600, y: 480}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!224 &224541081945623162
 RectTransform:
@@ -27914,10 +27990,10 @@ RectTransform:
   m_Father: {fileID: 224539073347879052}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 0, y: -80}
+  m_SizeDelta: {x: 600, y: 400}
   m_Pivot: {x: 0, y: 1}
 --- !u!224 &224792493173541018
 RectTransform:
