@@ -16012,7 +16012,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 63
+        x: 79
         y: 108
         width: 100
         height: 16
@@ -16064,7 +16064,7 @@ MonoBehaviour:
       colorIndex: 3
       position:
         serializedVersion: 2
-        x: 52
+        x: 68
         y: 421
         width: 100
         height: 32
@@ -16083,14 +16083,14 @@ MonoBehaviour:
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.BuildString
-        - HutongGames.PlayMaker.Actions.ResourcesLoad
+        - HutongGames.PlayMaker.Actions.ResourcesLoadAsynch
         customNames:
         - 
         - 
         actionEnabled: 0101
         actionIsOpen: 0101
         actionStartIndex: 0000000009000000
-        actionHashCodes: 7370ae05ff2e8504
+        actionHashCodes: 7370ae05fbe6d602
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -16171,7 +16171,13 @@ MonoBehaviour:
             objectReferences: []
         fsmArrayParams: []
         fsmEnumParams: []
-        fsmFloatParams: []
+        fsmFloatParams:
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 0
@@ -16180,6 +16186,18 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 1
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
         fsmVector2Params: []
         fsmVector3Params: []
         fsmColorParams: []
@@ -16194,7 +16212,7 @@ MonoBehaviour:
         - HutongGames.PlayMaker.FsmString
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 0c000000120000001200000012000000120000001200000011000000120000000100000012000000270000001700000017000000
+        paramDataType: 0c0000001200000012000000120000001200000012000000110000001200000001000000120000002700000011000000110000000f0000001700000017000000
         paramName:
         - stringParts
         - 
@@ -16207,16 +16225,19 @@ MonoBehaviour:
         - everyFrame
         - assetPath
         - storeAsset
-        - successEvent
+        - success
+        - isDone
+        - progress
+        - doneEvent
         - failureEvent
-        paramDataPos: 00000000000000000100000002000000030000000400000000000000050000000000000006000000000000000000000001000000
-        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000
+        paramDataPos: 00000000000000000100000002000000030000000400000000000000050000000000000006000000000000000100000002000000000000000000000001000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000
     - name: "-------\u8AAA\u51FA\u5B8C\u6210------"
       description: 
       colorIndex: 3
       position:
         serializedVersion: 2
-        x: 627
+        x: 643
         y: 471
         width: 146
         height: 16
@@ -16375,8 +16396,8 @@ MonoBehaviour:
       colorIndex: 3
       position:
         serializedVersion: 2
-        x: 51.5
-        y: 363.3203
+        x: 59.5
+        y: 319.3203
         width: 100
         height: 32
       isBreakpoint: 0
@@ -16384,8 +16405,8 @@ MonoBehaviour:
       hideUnused: 0
       transitions:
       - fsmEvent:
-          name: Go
-          isSystemEvent: 0
+          name: FINISHED
+          isSystemEvent: 1
           isGlobal: 0
         toState: "\u8B80\u53D6"
         linkStyle: 0
@@ -16394,14 +16415,12 @@ MonoBehaviour:
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.DestroyObject
-        - HutongGames.PlayMaker.Actions.ResourcesUnLoadUnusedAssets
         customNames:
         - 
-        - 
-        actionEnabled: 0101
-        actionIsOpen: 0101
-        actionStartIndex: 0000000003000000
-        actionHashCodes: 9ff80c0288611604
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 9ff80c02
         unityObjectParams: []
         fsmGameObjectParams:
         - useVariable: 1
@@ -16442,27 +16461,25 @@ MonoBehaviour:
         fsmColorParams: []
         fsmRectParams: []
         fsmQuaternionParams: []
-        stringParams:
-        - Go
+        stringParams: []
         byteData: 
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 130000000f0000001100000017000000
+        paramDataType: 130000000f00000011000000
         paramName:
         - gameObject
         - delay
         - detachChildren
-        - UnloadDoneEvent
-        paramDataPos: 00000000000000000000000000000000
-        paramByteDataSize: 00000000000000000000000000000000
+        paramDataPos: 000000000000000000000000
+        paramByteDataSize: 000000000000000000000000
     - name: "\u53D6\u5F97\u8CC7\u8A0A"
       description: 
       colorIndex: 3
       position:
         serializedVersion: 2
-        x: 56
+        x: 72
         y: 211
         width: 100
         height: 32
@@ -16654,7 +16671,7 @@ MonoBehaviour:
       colorIndex: 6
       position:
         serializedVersion: 2
-        x: 427
+        x: 443
         y: 216
         width: 100
         height: 16
@@ -16750,7 +16767,7 @@ MonoBehaviour:
       colorIndex: 3
       position:
         serializedVersion: 2
-        x: 211
+        x: 227
         y: 226
         width: 120.5
         height: 48
@@ -16846,7 +16863,7 @@ MonoBehaviour:
       colorIndex: 3
       position:
         serializedVersion: 2
-        x: 225
+        x: 241
         y: 352
         width: 100
         height: 48
@@ -16946,7 +16963,7 @@ MonoBehaviour:
       colorIndex: 3
       position:
         serializedVersion: 2
-        x: 223
+        x: 239
         y: 435
         width: 161
         height: 48
@@ -17101,7 +17118,7 @@ MonoBehaviour:
       colorIndex: 3
       position:
         serializedVersion: 2
-        x: 435
+        x: 451
         y: 523
         width: 100
         height: 32
@@ -17193,7 +17210,7 @@ MonoBehaviour:
       colorIndex: 3
       position:
         serializedVersion: 2
-        x: 436
+        x: 452
         y: 421
         width: 100
         height: 32
@@ -17422,7 +17439,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -26713,8 +26730,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 290, y: 0}
-  m_SizeDelta: {x: 580, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!224 &224287811712577538
 RectTransform:
