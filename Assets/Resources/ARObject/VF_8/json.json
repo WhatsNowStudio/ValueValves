@@ -7,9 +7,9 @@
     },
     "ObjSelectButton": {
       "1": {
-        "tw": "Type1",
-        "en": "Type1",
-        "ch": "Type1"
+        "tw": "210(VP1200DA)",
+        "en": "210(VP1200DA)",
+        "ch": "210(VP1200DA)"
       },
       "2": {
         "tw": "Type2",
@@ -34,6 +34,34 @@
     },
     "Tag": {
       "1": {
+        "Video": "",
+        "VideoPic": "",
+        "VideoTitle_tw": "",
+        "VideoTitle_en": "",
+        "VideoTitle_ch": "",
+        "Pic": "",
+        "PicTitle_tw": "支架",
+        "PicTitle_en": "YOKE",
+        "PicTitle_ch": "支架",
+        "PicContent_tw": "",
+        "PicContent_en": "",
+        "PicContent_ch": ""
+      },
+      "2": {
+        "Video": "",
+        "VideoPic": "",
+        "VideoTitle_tw": "",
+        "VideoTitle_en": "",
+        "VideoTitle_ch": "",
+        "Pic": "",
+        "PicTitle_tw": "閥體",
+        "PicTitle_en": "BODY",
+        "PicTitle_ch": "閥體",
+        "PicContent_tw": "",
+        "PicContent_en": "",
+        "PicContent_ch": ""
+      },
+      "3": {
         "Video": "Video.mp4",
         "VideoPic": "VideoPic",
         "VideoTitle_tw": "密封閥座",
@@ -47,7 +75,21 @@
         "PicContent_en": "The standard disc is built with a Hard chrome\nplated, Stellite21 weld overlay hard face provides\nincreased hardness and wear resistance with long\nservice life.\nWe provides laminated seal seat & solid metal seal\nseat as well.",
         "PicContent_ch": "&quot;A&quot;型設計閥座為了提高硬度及耐磨耗，其密封接觸\n面堆銲為Stellite#21，因應不同工況，止漏閥座材質\n提供純金屬式&夾層式，密封閥座置於本體，流體不\n會直接沖刷閥座石墨。"
       },
-      "2": {
+      "4": {
+        "Video": "",
+        "VideoPic": "",
+        "VideoTitle_tw": "",
+        "VideoTitle_en": "",
+        "VideoTitle_ch": "",
+        "Pic": "",
+        "PicTitle_tw": "碟片",
+        "PicTitle_en": "DISC",
+        "PicTitle_ch": "碟片",
+        "PicContent_tw": "",
+        "PicContent_en": "",
+        "PicContent_ch": ""
+      },
+      "5": {
         "Video": "Video.mp4",
         "VideoPic": "VideoPic",
         "VideoTitle_tw": "止漏結構",
@@ -61,7 +103,7 @@
         "PicContent_en": "The soft sealing of graphite for laminated seat is placed on the body which reducing the possibility of graphite gets wear further leads to leakage. The graphite is positioned in the notch of the sealing seat in order to allow for easy repair.",
         "PicContent_ch": "密封閥座與本體接合之止漏結構，為石墨止漏元件置於密封閥座插溝，並有兩定位孔，使得閥座定位精確，利於快速維修更換。"
       },
-      "3": {
+      "6": {
         "Video": "Video.mp4",
         "VideoPic": "VideoPic",
         "VideoTitle_tw": "新型複合式止漏/閥軸防塵結構",
@@ -75,7 +117,7 @@
         "PicContent_en": "A set of bushing design prevents the ingress of foreign material into the shaft area.",
         "PicContent_ch": "只需依序將推力襯套，止漏環、及其餘襯套，填含料放置本體後，取填含座安裝鎖固即可(上下軸端皆同此設計) ，可快速維修及更換襯套。"
       },
-      "4": {
+      "7": {
         "Video": "Video.mp4",
         "VideoPic": "VideoPic",
         "VideoTitle_tw": "防下垂防爆衝出雙定位機構",
@@ -89,7 +131,49 @@
         "PicContent_en": "Both the shaft stop and bottom cover offers reliable blowout protection.",
         "PicContent_ch": "新型三偏心取固定螺栓將閥軸及閥瓣定位，並採用軸下檔塊結構鎖固，預防閥軸衝出的兩道防護並由下蓋頂住軸下檔塊，以防止因敲擊導致閥軸下垂。\n\n此花鍵帶動結構，如需更換下軸襯套，只需將下蓋、及下軸檔塊拆除，依序將襯套取出更換，維修更為簡易。"
       },
-      "5": {
+      "8": {
+        "Video": "",
+        "VideoPic": "",
+        "VideoTitle_tw": "",
+        "VideoTitle_en": "",
+        "VideoTitle_ch": "",
+        "Pic": "",
+        "PicTitle_tw": "防下垂防爆衝出雙定位機構-止付螺絲",
+        "PicTitle_en": "BLOW-OUT PROTECTION-STOP STUD",
+        "PicTitle_ch": "止付螺絲",
+        "PicContent_tw": "新型三偏心取固定螺栓將閥軸及閥瓣定位，並採用軸下檔塊結構鎖固，預防閥軸衝出的兩道防護並由下蓋頂住軸下檔塊，以防止因敲擊導致閥軸下垂。\n\n此花鍵帶動結構，如需更換下軸襯套，只需將下蓋、及下軸檔塊拆除，依序將襯套取出更換，維修更為簡易。",
+        "PicContent_en": "Both the shaft stop and bottom cover offers reliable blowout protection.",
+        "PicContent_ch": "新型三偏心取固定螺栓將閥軸及閥瓣定位，並採用軸下檔塊結構鎖固，預防閥軸衝出的兩道防護並由下蓋頂住軸下檔塊，以防止因敲擊導致閥軸下垂。\n\n此花鍵帶動結構，如需更換下軸襯套，只需將下蓋、及下軸檔塊拆除，依序將襯套取出更換，維修更為簡易。"
+      },
+      "9": {
+        "Video": "",
+        "VideoPic": "",
+        "VideoTitle_tw": "",
+        "VideoTitle_en": "",
+        "VideoTitle_ch": "",
+        "Pic": "",
+        "PicTitle_tw": "閥軸",
+        "PicTitle_en": "SHAFT",
+        "PicTitle_ch": "閥軸",
+        "PicContent_tw": "",
+        "PicContent_en": "",
+        "PicContent_ch": ""
+      },
+      "10": {
+        "Video": "",
+        "VideoPic": "",
+        "VideoTitle_tw": "",
+        "VideoTitle_en": "",
+        "VideoTitle_ch": "",
+        "Pic": "",
+        "PicTitle_tw": "軸下檔塊",
+        "PicTitle_en": "SHAFT STOP",
+        "PicTitle_ch": "軸下檔塊",
+        "PicContent_tw": "",
+        "PicContent_en": "",
+        "PicContent_ch": ""
+      },
+      "11": {
         "Video": "Video.mp4",
         "VideoPic": "VideoPic",
         "VideoTitle_tw": "貼心閥門指示器",
@@ -99,11 +183,11 @@
         "PicTitle_tw": "貼心閥門指示器",
         "PicTitle_en": "DISC INDICATION",
         "PicTitle_ch": "貼心閥門指示器",
-        "PicContent_tw": "為了讓客戶可清楚地看到蝶片的開關角度，於三偏心蝶型閥閥軸皆有閥門位置指示的設計,及於格蘭上蓋有\"S\"及\"O\"箭頭指示。",
-        "PicContent_en": "Disc indication marked at the shaft end to clearly identify the disc opening degree at any time.",
-        "PicContent_ch": "為了讓客戶可清楚地看到蝶片的開關角度，於三偏心蝶型閥閥軸皆有閥門位置指示的設計,及於格蘭上蓋有\"S\"及\"O\"箭頭指示。"
+        "PicContent_tw": "為了讓客戶可清楚地看到蝶片的開關角度，於三偏\n心蝶型閥閥軸皆有閥門位置指示的設計,及於格蘭上\n蓋有&quot;S&quot;及&quot;O&quot;箭頭指示。",
+        "PicContent_en": "Disc indication marked at the shaft end to\nclearly identify the disc opening degree at\nany time.",
+        "PicContent_ch": "為了讓客戶可清楚地看到蝶片的開關角度，於三偏\n心蝶型閥閥軸皆有閥門位置指示的設計,及於格蘭上\n蓋有&quot;S&quot;及&quot;O&quot;箭頭指示。"
       },
-      "6": {
+      "12": {
         "Video": "Video.mp4",
         "VideoPic": "VideoPic",
         "VideoTitle_tw": "雙向持壓設計",
@@ -116,34 +200,6 @@
         "PicContent_tw": "特殊的浮動式閥座設計，依據壓力源之方向，自動調整閥座位置，使閥門於全關位置擁有理想的密封比壓，達到閥門雙面持壓之效果，並增加了閥座使用壽命。",
         "PicContent_en": "The floating sealing design is self-adjustable and the sealing surfaces of an elliptical sealing system are\ncompletely in contact at the final position only. This mechanism provides flawless bubble tight shutoff.",
         "PicContent_ch": "特殊的浮動式閥座設計，依據壓力源之方向，自動調整閥座位置，使閥門於全關位置擁有理想的密封比壓，達到閥門雙面持壓之效果，並增加了閥座使用壽命。"
-      },
-      "7": {
-        "Video": "Video.mp4",
-        "VideoPic": "VideoPic",
-        "VideoTitle_tw": "結構式閥瓣定位機構",
-        "VideoTitle_en": "DISC",
-        "VideoTitle_ch": "結構式閥瓣定位機構",
-        "Pic": "Pic",
-        "PicTitle_tw": "結構式閥瓣定位機構",
-        "PicTitle_en": "DISC",
-        "PicTitle_ch": "結構式閥瓣定位機構",
-        "PicContent_tw": "新型三偏心取閥瓣，本體及襯套，採加工尺寸配合，達到結構式閥瓣快速定位，且A型設計不打Pin，維修簡易且快速。",
-        "PicContent_en": "Pin-less design provides easily maintenance work.",
-        "PicContent_ch": "新型三偏心取閥瓣，本體及襯套，採加工尺寸配合，達到結構式閥瓣快速定位，且A型設計不打Pin，維修簡易且快速。"
-      },
-      "8": {
-        "Video": "",
-        "VideoPic": "",
-        "VideoTitle_tw": "Tag8",
-        "VideoTitle_en": "Tag8",
-        "VideoTitle_ch": "Tag8",
-        "Pic": "Tag8",
-        "PicTitle_tw": "Tag8",
-        "PicTitle_en": "Tag8",
-        "PicTitle_ch": "Tag8",
-        "PicContent_tw": "",
-        "PicContent_en": "",
-        "PicContent_ch": ""
       }
     }
   }
