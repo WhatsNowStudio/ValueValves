@@ -166,7 +166,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1246458891101806}
-  m_LocalRotation: {x: 0.2588191, y: 0, z: 0, w: 0.9659258}
+  m_LocalRotation: {x: 0.17364816, y: 0, z: 0, w: 0.9848078}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -175,7 +175,7 @@ Transform:
   - {fileID: 4904331568323960}
   m_Father: {fileID: 4835792916355684}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 30, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 20, y: 0, z: 0}
 --- !u!4 &4234205154596058
 Transform:
   m_ObjectHideFlags: 1
@@ -1101,7 +1101,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 010101
-        actionIsOpen: 000001
+        actionIsOpen: 000101
         actionStartIndex: 000000000900000012000000
         actionHashCodes: 979e4104979e4104f6e5be03
         unityObjectParams: []
@@ -1166,7 +1166,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 30
+          value: 20
         - useVariable: 0
           name: 
           tooltip: 
@@ -1778,7 +1778,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 0101010101
-        actionIsOpen: 0101010101
+        actionIsOpen: 0001010101
         actionStartIndex: 0000000008000000120000001c0000001f000000
         actionHashCodes: 092dca00b0327400b03274009845b3059845b305
         unityObjectParams: []
@@ -3640,18 +3640,6 @@ MonoBehaviour:
         networkSync: 0
         value: 0
       - useVariable: 1
-        name: Float/Public
-        tooltip: 
-        showInInspector: 0
-        networkSync: 0
-        value: 0
-      - useVariable: 1
-        name: Float/Public
-        tooltip: 
-        showInInspector: 0
-        networkSync: 0
-        value: 0
-      - useVariable: 1
         name: Float/SlowDistanceSpeed
         tooltip: 
         showInInspector: 0
@@ -3715,7 +3703,7 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+      variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
     description: 
     docUrl: 
     showStateLabel: 0
@@ -3839,38 +3827,20 @@ MonoBehaviour:
         networkSync: 0
         value: 0
       - useVariable: 1
-        name: Float/X1
+        name: Float/X
         tooltip: 
         showInInspector: 0
         networkSync: 0
         value: 0
       - useVariable: 1
-        name: Float/X2
-        tooltip: 
-        showInInspector: 0
-        networkSync: 0
-        value: 0
-      - useVariable: 1
-        name: Float/Y1
-        tooltip: 
-        showInInspector: 0
-        networkSync: 0
-        value: 0
-      - useVariable: 1
-        name: Float/Y2
+        name: Float/Y
         tooltip: 
         showInInspector: 0
         networkSync: 0
         value: 0
       intVariables: []
       boolVariables: []
-      stringVariables:
-      - useVariable: 1
-        name: String/Public
-        tooltip: 
-        showInInspector: 0
-        networkSync: 0
-        value: 
+      stringVariables: []
       vector2Variables: []
       vector3Variables:
       - useVariable: 1
@@ -3896,7 +3866,7 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000
+      variableCategoryIDs: 0000000000000000000000000000000000000000
     description: 
     docUrl: 
     showStateLabel: 0
