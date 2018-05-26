@@ -18,6 +18,13 @@ ModelImporter:
     2100008: 'Material #41'
     2100010: 3
     2100012: 2
+    2100014: blue
+    2100016: red
+    2100018: '13 - Default Slot #5'
+    2100020: '13 - Default Slot #6'
+    2100022: '13 - Default Slot #7'
+    2100024: Metal
+    2100026: steering wheel
     2300000: //RootNode
     2300002: MSBR_Body
     2300004: MSBR_Body001_Outline
