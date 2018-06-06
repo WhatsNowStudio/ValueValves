@@ -1077,8 +1077,8 @@ RectTransform:
   m_Father: {fileID: 866202182}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 290, y: 0}
   m_SizeDelta: {x: 580, y: 0}
   m_Pivot: {x: 0.5, y: 1}
@@ -3335,15 +3335,17 @@ MonoBehaviour:
         colorIndex: 0
       actionData:
         actionNames:
+        - HutongGames.PlayMaker.Actions.FloatOperator
         - HutongGames.PlayMaker.Actions.Rotate
         - HutongGames.PlayMaker.Actions.IntSwitch
         customNames:
         - 
         - 
-        actionEnabled: 0101
-        actionIsOpen: 0101
-        actionStartIndex: 000000000a000000
-        actionHashCodes: b0327400092dca00
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 010100
+        actionStartIndex: 00000000050000000f000000
+        actionHashCodes: 0cdb0405b0327400092dca00
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
@@ -3368,13 +3370,31 @@ MonoBehaviour:
         fsmEnumParams: []
         fsmFloatParams:
         - useVariable: 1
+          name: Float/FingerSpeed
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: -1
+        - useVariable: 1
+          name: Float/RotateSpeed
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
           name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
           value: 0
         - useVariable: 1
-          name: Float/FingerSpeed
+          name: Float/RotateSpeed
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -3433,15 +3453,20 @@ MonoBehaviour:
         - Go
         - Go
         - Go
-        byteData: 010000000001000001
+        byteData: 0200000001010000000001000001
         arrayParamSizes: 0400000004000000
         arrayParamTypes:
         - HutongGames.PlayMaker.FsmInt
         - HutongGames.PlayMaker.FsmEvent
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 140000001c0000000f0000000f0000000f0000000700000001000000010000000100000001000000100000000c000000100000001000000010000000100000000c0000001700000017000000170000001700000001000000
+        paramDataType: 0f0000000f000000070000000f00000001000000140000001c0000000f0000000f0000000f0000000700000001000000010000000100000001000000100000000c000000100000001000000010000000100000000c0000001700000017000000170000001700000001000000
         paramName:
+        - float1
+        - float2
+        - operation
+        - storeResult
+        - everyFrame
         - gameObject
         - vector
         - xAngle
@@ -3464,8 +3489,8 @@ MonoBehaviour:
         - 
         - 
         - everyFrame
-        paramDataPos: 00000000000000000000000001000000020000000000000004000000050000000600000007000000000000000000000001000000020000000300000004000000010000000000000001000000020000000300000008000000
-        paramByteDataSize: 00000000000000000000000000000000000000000400000001000000010000000100000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000
+        paramDataPos: 0000000001000000000000000200000004000000000000000000000003000000040000000500000005000000090000000a0000000b0000000c00000000000000000000000100000002000000030000000400000001000000000000000100000002000000030000000d000000
+        paramByteDataSize: 000000000000000004000000000000000100000000000000000000000000000000000000000000000400000001000000010000000100000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000
     events:
     - name: FINISHED
       isSystemEvent: 1
@@ -3475,7 +3500,13 @@ MonoBehaviour:
       isGlobal: 0
     globalTransitions: []
     variables:
-      floatVariables: []
+      floatVariables:
+      - useVariable: 1
+        name: Float/RotateSpeed
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 0
       intVariables: []
       boolVariables: []
       stringVariables: []
@@ -3492,7 +3523,7 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 
+      variableCategoryIDs: 00000000
     description: 
     docUrl: 
     showStateLabel: 0
@@ -3502,7 +3533,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
