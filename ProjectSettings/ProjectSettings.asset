@@ -161,7 +161,8 @@ PlayerSettings:
   applicationIdentifier:
     Android: com.ValueValves.ValueValvesApp
     iOS: com.valuevalves.showcaseapp
-  buildNumber: {}
+  buildNumber:
+    iOS: 1
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 22
   AndroidTargetSdkVersion: 0
@@ -547,7 +548,8 @@ PlayerSettings:
   psp2InfoBarColor: 0
   psp2ScriptOptimizationLevel: 0
   psmSplashimage: {fileID: 0}
-  splashScreenBackgroundSourceLandscape: {fileID: 0}
+  splashScreenBackgroundSourceLandscape: {fileID: 21300000, guid: e251f14710854e946aee70513ac68b3b,
+    type: 3}
   splashScreenBackgroundSourcePortrait: {fileID: 0}
   spritePackerPolicy: 
   webGLMemorySize: 256
