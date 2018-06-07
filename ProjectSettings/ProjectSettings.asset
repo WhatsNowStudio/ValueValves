@@ -160,7 +160,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
     Android: com.ValueValves.ValueValvesApp
-    iOS: com.valuevalves.shocaseapp
+    iOS: com.valuevalves.showcaseapp
   buildNumber: {}
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 22
