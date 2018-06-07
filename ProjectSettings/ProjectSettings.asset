@@ -244,8 +244,8 @@ PlayerSettings:
   appleEnableAutomaticSigning: 0
   clonedFromGUID: 00000000000000000000000000000000
   AndroidTargetDevice: 0
-  AndroidSplashScreenScale: 0
-  androidSplashScreen: {fileID: 0}
+  AndroidSplashScreenScale: 2
+  androidSplashScreen: {fileID: 2800000, guid: e251f14710854e946aee70513ac68b3b, type: 3}
   AndroidKeystoreName: 
   AndroidKeyaliasName: 
   AndroidTVCompatibility: 0
