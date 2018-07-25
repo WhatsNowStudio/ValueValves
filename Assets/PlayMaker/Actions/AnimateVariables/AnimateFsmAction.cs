@@ -278,5 +278,22 @@ namespace HutongGames.PlayMaker.Actions
                 isRunning = !finishAction;
             }
         }
+
+
+		#if UNITY_EDITOR
+
+		public override float GetProgress()
+		{
+			float maxendtime = 0f;
+
+			for (int i = 0; i < endTimes.Length; i++)
+			{
+				maxendtime = Mathf.Max (maxendtime, endTimes [i]);
+			}
+
+			return Mathf.Min(currentTime/maxendtime , 1f);
+		}
+
+		#endif
     }
 }

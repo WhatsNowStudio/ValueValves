@@ -145,7 +145,10 @@ namespace HutongGames.PlayMaker.Actions
 
         public override void DoControllerColliderHit(ControllerColliderHit collisionInfo)
         {
-            runFsm.OnControllerColliderHit(collisionInfo);
+            if (runFsm.HandleControllerColliderHit)
+            {
+                runFsm.OnControllerColliderHit(collisionInfo);
+            }       
         }
 
         public override void DoTriggerEnter2D(Collider2D other)

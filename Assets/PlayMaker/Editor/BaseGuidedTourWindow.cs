@@ -114,8 +114,23 @@ namespace HutongGames.PlayMakerEditor
                 GUILayout.Box("Click Topics to highlight UI and show more info.\nClick Help Button to open online help.", FsmEditorStyles.HintBox);
             }
 
-            // Guide Topics
+            DoTopicsList();
 
+            GUILayout.FlexibleSpace();
+
+            DoBottomPanel();
+
+            // mouse event not used by other UI 
+            // so must have clicked on empty area
+            if (Event.current.type == EventType.MouseDown && 
+                Event.current.mousePosition.y < position.height - helpHeight)
+            {
+                ClearHighlight();
+            }
+        }
+
+        private void DoTopicsList()
+        {
             GUILayout.Space(5f);
 
             scrollPosition = EditorGUILayout.BeginScrollView(scrollPosition);
@@ -123,7 +138,7 @@ namespace HutongGames.PlayMakerEditor
             if (Event.current.type == EventType.Layout)
             {
                 guidedTour.UpdateTopicTree();
-            }       
+            }
 
             var windows = guidedTour.GetWindows();
             foreach (var window in windows)
@@ -141,24 +156,23 @@ namespace HutongGames.PlayMakerEditor
             EditorGUILayout.EndScrollView();
 
             DoAutoScroll();
-            
-            GUILayout.FlexibleSpace();
+        }
 
-            // Help panel for selected topic
+        // Help panel for selected topic
+        private void DoBottomPanel()
+        {
+            GUILayout.BeginVertical(FsmEditorStyles.BottomBarBG);
 
             FsmEditorGUILayout.Divider();
 
-            GUILayout.BeginHorizontal();
-            GUILayout.Space(10);
-
-            GUILayout.BeginVertical(GUILayout.Height(helpHeight));
+            GUILayout.BeginVertical(EditorStyles.inspectorDefaultMargins, GUILayout.Height(helpHeight));
 
             helpScrollPosition = EditorGUILayout.BeginScrollView(helpScrollPosition);
-            
+
             if (guidedTour.SelectedTopic != null)
             {
                 var topic = guidedTour.SelectedTopic;
-                
+
                 GUILayout.BeginHorizontal();
                 GUILayout.Label(topic.Label.text, EditorStyles.boldLabel);
                 GUILayout.FlexibleSpace();
@@ -169,6 +183,7 @@ namespace HutongGames.PlayMakerEditor
                         Application.OpenURL(topic.HelpUrl);
                     }
                 }
+
                 GUILayout.EndHorizontal();
 
                 if (!string.IsNullOrEmpty(topic.Label.tooltip))
@@ -185,15 +200,7 @@ namespace HutongGames.PlayMakerEditor
             GUILayout.Space(5);
             GUILayout.EndVertical();
 
-            GUILayout.EndHorizontal();
-
-            // mouse event not used by other UI 
-            // so must have clicked on empty area
-            if (Event.current.type == EventType.MouseDown && 
-                Event.current.mousePosition.y < position.height - helpHeight)
-            {
-                ClearHighlight();
-            }
+            GUILayout.EndVertical();
         }
 
         protected void HandleKeyboardInput()

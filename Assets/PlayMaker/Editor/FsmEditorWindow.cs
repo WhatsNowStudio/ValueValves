@@ -1,6 +1,7 @@
 // (c) Copyright HutongGames, LLC 2010-2013. All rights reserved.
 
 using HutongGames.Editor;
+using HutongGames.PlayMaker;
 using UnityEditor;
 using UnityEngine;
 
@@ -65,6 +66,35 @@ namespace HutongGames.PlayMakerEditor
         public static bool IsOpen()
         {
             return instance != null;
+        }
+
+        public static void OpenInEditor(PlayMakerFSM fsmComponent)
+        {
+            if (!IsOpen())
+            {
+                OpenWindow(fsmComponent);
+            }
+            else
+            {
+                FocusWindowIfItsOpen<FsmEditorWindow>();
+                FsmEditor.SelectFsm(fsmComponent.FsmTemplate == null ? fsmComponent.Fsm : fsmComponent.FsmTemplate.fsm);
+            }
+        }
+
+        public static void OpenInEditor(Fsm fsm)
+        {
+            if (fsm.Owner != null)
+            {
+                OpenInEditor(fsm.Owner as PlayMakerFSM);
+            }
+        }
+
+        public static void OpenInEditor(GameObject go)
+        {
+            if (go != null)
+            {
+                OpenInEditor(FsmSelection.FindFsmOnGameObject(go));
+            }
         }
 
         private static FsmEditorWindow instance;

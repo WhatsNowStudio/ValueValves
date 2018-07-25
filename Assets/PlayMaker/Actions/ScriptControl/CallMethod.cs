@@ -10,11 +10,15 @@ using HutongGames.PlayMaker;
 namespace HutongGames.PlayMaker.Actions
 {
     [ActionCategory(ActionCategory.ScriptControl)]
-    [Tooltip("Call a method in a behaviour.")]
+    [Tooltip("Call a method in a component on a GameObject.")]
     public class CallMethod : FsmStateAction
     {
-        [ObjectType(typeof(MonoBehaviour))]
-        [Tooltip("Store the component in an Object variable.\nNOTE: Set theObject variable's Object Type to get a component of that type. E.g., set Object Type to UnityEngine.AudioListener to get the AudioListener component on the camera.")]
+        [ObjectType(typeof(Component))]
+        [Tooltip("The behaviour on a GameObject that has the method you want to call. " +
+                 "Drag the script component from the Unity inspector into this slot. " +
+                 "HINT: Use Lock if the script is on another GameObject." +
+                 "\n\nNOTE: Unity Object fields only show the GameObject name, " +
+                 "so for clarity we show the Behaviour name in a readonly field below.")]
         public FsmObject behaviour;
 
         //[UIHint(UIHint.Method)]

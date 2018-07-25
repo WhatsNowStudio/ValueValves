@@ -36,8 +36,6 @@ namespace HutongGames.PlayMaker.Actions
 		[Tooltip("Event sent if a problem occurred, check log for information")]
 		public FsmEvent failureEvent;
 
-		Scene _scene;
-		bool _sceneFound;
 
 		public override void Reset()
 		{

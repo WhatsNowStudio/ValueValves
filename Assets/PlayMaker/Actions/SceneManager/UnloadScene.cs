@@ -52,8 +52,6 @@ namespace HutongGames.PlayMaker.Actions
 		[UIHint(UIHint.Variable)]
 		public FsmEvent failureEvent;
 
-		Scene _scene;
-		bool _sceneFound;
 
 		public override void Reset()
 		{

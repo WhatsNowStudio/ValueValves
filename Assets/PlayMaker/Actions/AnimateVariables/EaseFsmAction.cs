@@ -139,7 +139,16 @@ namespace HutongGames.PlayMaker.Actions
 				}	
 			}
 		}
-		
+
+		#if UNITY_EDITOR
+
+		public override float GetProgress()
+		{
+			return Mathf.Min(percentage, 1f);
+		}
+
+		#endif
+
 		protected void UpdatePercentage(){
 
 	        // Added by PressPlay   
@@ -252,6 +261,9 @@ namespace HutongGames.PlayMaker.Actions
 			case EaseType.elastic:
 				ease = new EasingFunction(elastic);
 				break;
+			case EaseType.punch:
+			    ease = new EasingFunction(elastic); // TODO: Fix Punch easing function
+			        break;
 			}
 		}
 		
