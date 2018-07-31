@@ -8004,7 +8004,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: http://www.valuevalves.com/index_tw.asp
+          value: http://www.valuevalves.com/
         - useVariable: 0
           name: 
           tooltip: 
