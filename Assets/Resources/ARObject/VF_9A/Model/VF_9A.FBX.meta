@@ -1,0 +1,284 @@
+fileFormatVersion: 2
+guid: 26a7e2cd50905c640a0656eca03f9e01
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Body
+    100002: Body_B
+    100004: BOTTOM COVER
+    100006: BOTTOM COVER GASKET
+    100008: BOTTOM COVER_0
+    100010: BOTTOM COVER_0_B
+    100012: BOTTOM COVER_B
+    100014: BOTTOM COVER_BOLT
+    100016: BOTTOM COVER_BOLT_B
+    100018: BOTTOM COVER_SPRING WASHER
+    100020: BOTTOM COVER_SPRING WASHER_B
+    100022: BUSHING_Down
+    100024: BUSHING_Up
+    100026: DISC
+    100028: DISC_B
+    100030: GASKET
+    100032: GASKET_B
+    100034: GLAND
+    100036: GLAND PACKING
+    100038: GLAND_B
+    100040: GLAND_NUT
+    100042: GLAND_SPRING WASHER
+    100044: GLAND_STUD
+    100046: RETAINER
+    100048: RETAINER_B
+    100050: SHAFT
+    100052: STOPSTUD
+    100054: //RootNode
+    100056: YOKE
+    100058: YOKE_B
+    100060: YOKE_NUT
+    100062: YOKE_NUT_B
+    100064: YOKE_NUT_Down
+    100066: YOKE_NUT_Down_B
+    100068: YOKE_SPRING WASHER1
+    100070: YOKE_SPRING WASHER1_B
+    100072: YOKE_SPRING WASHER2
+    100074: YOKE_SPRING WASHER2_B
+    100076: YOKE_STUD
+    100078: YOKE_STUD_B
+    400000: Body
+    400002: Body_B
+    400004: BOTTOM COVER
+    400006: BOTTOM COVER GASKET
+    400008: BOTTOM COVER_0
+    400010: BOTTOM COVER_0_B
+    400012: BOTTOM COVER_B
+    400014: BOTTOM COVER_BOLT
+    400016: BOTTOM COVER_BOLT_B
+    400018: BOTTOM COVER_SPRING WASHER
+    400020: BOTTOM COVER_SPRING WASHER_B
+    400022: BUSHING_Down
+    400024: BUSHING_Up
+    400026: DISC
+    400028: DISC_B
+    400030: GASKET
+    400032: GASKET_B
+    400034: GLAND
+    400036: GLAND PACKING
+    400038: GLAND_B
+    400040: GLAND_NUT
+    400042: GLAND_SPRING WASHER
+    400044: GLAND_STUD
+    400046: RETAINER
+    400048: RETAINER_B
+    400050: SHAFT
+    400052: STOPSTUD
+    400054: //RootNode
+    400056: YOKE
+    400058: YOKE_B
+    400060: YOKE_NUT
+    400062: YOKE_NUT_B
+    400064: YOKE_NUT_Down
+    400066: YOKE_NUT_Down_B
+    400068: YOKE_SPRING WASHER1
+    400070: YOKE_SPRING WASHER1_B
+    400072: YOKE_SPRING WASHER2
+    400074: YOKE_SPRING WASHER2_B
+    400076: YOKE_STUD
+    400078: YOKE_STUD_B
+    2100000: 'Material #38'
+    2300000: Body
+    2300002: Body_B
+    2300004: BOTTOM COVER
+    2300006: BOTTOM COVER GASKET
+    2300008: BOTTOM COVER_0
+    2300010: BOTTOM COVER_0_B
+    2300012: BOTTOM COVER_B
+    2300014: BOTTOM COVER_BOLT
+    2300016: BOTTOM COVER_BOLT_B
+    2300018: BOTTOM COVER_SPRING WASHER
+    2300020: BOTTOM COVER_SPRING WASHER_B
+    2300022: BUSHING_Down
+    2300024: BUSHING_Up
+    2300026: DISC
+    2300028: DISC_B
+    2300030: GASKET
+    2300032: GASKET_B
+    2300034: GLAND
+    2300036: GLAND PACKING
+    2300038: GLAND_B
+    2300040: GLAND_NUT
+    2300042: GLAND_SPRING WASHER
+    2300044: GLAND_STUD
+    2300046: RETAINER
+    2300048: RETAINER_B
+    2300050: SHAFT
+    2300052: STOPSTUD
+    2300054: YOKE
+    2300056: YOKE_B
+    2300058: YOKE_NUT
+    2300060: YOKE_NUT_B
+    2300062: YOKE_NUT_Down
+    2300064: YOKE_NUT_Down_B
+    2300066: YOKE_SPRING WASHER1
+    2300068: YOKE_SPRING WASHER1_B
+    2300070: YOKE_SPRING WASHER2
+    2300072: YOKE_SPRING WASHER2_B
+    2300074: YOKE_STUD
+    2300076: YOKE_STUD_B
+    3300000: Body
+    3300002: Body_B
+    3300004: BOTTOM COVER
+    3300006: BOTTOM COVER GASKET
+    3300008: BOTTOM COVER_0
+    3300010: BOTTOM COVER_0_B
+    3300012: BOTTOM COVER_B
+    3300014: BOTTOM COVER_BOLT
+    3300016: BOTTOM COVER_BOLT_B
+    3300018: BOTTOM COVER_SPRING WASHER
+    3300020: BOTTOM COVER_SPRING WASHER_B
+    3300022: BUSHING_Down
+    3300024: BUSHING_Up
+    3300026: DISC
+    3300028: DISC_B
+    3300030: GASKET
+    3300032: GASKET_B
+    3300034: GLAND
+    3300036: GLAND PACKING
+    3300038: GLAND_B
+    3300040: GLAND_NUT
+    3300042: GLAND_SPRING WASHER
+    3300044: GLAND_STUD
+    3300046: RETAINER
+    3300048: RETAINER_B
+    3300050: SHAFT
+    3300052: STOPSTUD
+    3300054: YOKE
+    3300056: YOKE_B
+    3300058: YOKE_NUT
+    3300060: YOKE_NUT_B
+    3300062: YOKE_NUT_Down
+    3300064: YOKE_NUT_Down_B
+    3300066: YOKE_SPRING WASHER1
+    3300068: YOKE_SPRING WASHER1_B
+    3300070: YOKE_SPRING WASHER2
+    3300072: YOKE_SPRING WASHER2_B
+    3300074: YOKE_STUD
+    3300076: YOKE_STUD_B
+    4300000: Body
+    4300002: BOTTOM COVER_0
+    4300004: BUSHING_Up
+    4300006: BUSHING_Down
+    4300008: BOTTOM COVER GASKET
+    4300010: SHAFT
+    4300012: BOTTOM COVER
+    4300014: BOTTOM COVER_SPRING WASHER
+    4300016: BOTTOM COVER_BOLT
+    4300018: GLAND PACKING
+    4300020: GLAND
+    4300022: GLAND_STUD
+    4300024: GLAND_SPRING WASHER
+    4300026: GLAND_NUT
+    4300028: YOKE
+    4300030: YOKE_STUD
+    4300032: YOKE_SPRING WASHER2
+    4300034: YOKE_NUT_Down
+    4300036: YOKE_NUT
+    4300038: GASKET
+    4300040: RETAINER
+    4300042: STOPSTUD
+    4300044: YOKE_SPRING WASHER1
+    4300046: GLAND_B
+    4300048: YOKE_B
+    4300050: Body_B
+    4300052: RETAINER_B
+    4300054: GASKET_B
+    4300056: DISC
+    4300058: DISC_B
+    4300060: YOKE_STUD_B
+    4300062: BOTTOM COVER_B
+    4300064: YOKE_NUT_B
+    4300066: YOKE_SPRING WASHER1_B
+    4300068: YOKE_SPRING WASHER2_B
+    4300070: YOKE_NUT_Down_B
+    4300072: BOTTOM COVER_0_B
+    4300074: BOTTOM COVER_BOLT_B
+    4300076: BOTTOM COVER_SPRING WASHER_B
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
