@@ -9648,7 +9648,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: ARObject/VF_9A/json
+          value: ARObject/Public/json
         - useVariable: 1
           name: String/Json/Main
           tooltip: 
