@@ -1,4 +1,157 @@
 {
+  "VF_BF": {
+    "Title": {
+      "en": "VF-BF Ball Valves - Upper Type",
+      "tw": "VF-BF 球塞閥-上座種類",
+      "ch": "VF-BF 球塞阀-上座种类"
+    },
+    "ObjSelectButton": {
+      "0": {
+        "tw": "Bare Shaft",
+        "en": "Bare Shaft",
+        "ch": "Bare Shaft"
+      },
+      "1": {
+        "tw": "VP Series",
+        "en": "VP Series",
+        "ch": "VP Series"
+      },
+      "2": {
+        "tw": "VH Series",
+        "en": "VH Series",
+        "ch": "VH Series"
+      },
+      "3": {
+        "tw": "Gear Box",
+        "en": "Gear Box",
+        "ch": "Gear Box"
+      },
+      "4": {
+        "tw": "Type4",
+        "en": "Type4",
+        "ch": "Type4"
+      },
+      "5": {
+        "tw": "Type5",
+        "en": "Type5",
+        "ch": "Type5"
+      }
+    },
+    "Tag": {
+      "1": {
+        "Video": "",
+        "VideoPic": "",
+        "VideoTitle_tw": "",
+        "VideoTitle_en": "",
+        "VideoTitle_ch": "",
+        "Pic": "",
+        "PicTitle_tw": "雙頭牙條抗震動",
+        "PicTitle_en": "???",
+        "PicTitle_ch": "双头牙条抗震动",
+        "PicContent_tw": "採用捷流集團自製雙頭牙條，且均使用細牙螺紋，降低因管線震動而使螺絲鬆動的疑慮。",
+        "PicContent_en": "???",
+        "PicContent_ch": "采用捷流集团自制双头牙条，且均使用细牙螺纹，降低因管线震动而使螺丝松动的疑虑。"
+      },
+      "2": {
+        "Video": "",
+        "VideoPic": "",
+        "VideoTitle_tw": "",
+        "VideoTitle_en": "",
+        "VideoTitle_ch": "",
+        "Pic": "",
+        "PicTitle_tw": "閥體與側蓋結合強度",
+        "PicTitle_en": "???",
+        "PicTitle_ch": "阀体与侧盖结合强度",
+        "PicContent_tw": "閥體與閥蓋之結合強度大，鎖固力大於兩側的法蘭強度，避免閥體與閥蓋結合面受壓力裂開。",
+        "PicContent_en": "???",
+        "PicContent_ch": "阀体与阀盖之结合强度大，锁固力大于两侧的法兰强度，避免阀体与阀盖结合面受压力裂开。"
+      },
+      "3": {
+        "Video": "",
+        "VideoPic": "",
+        "VideoTitle_tw": "",
+        "VideoTitle_en": "",
+        "VideoTitle_ch": "",
+        "Pic": "",
+        "PicTitle_tw": "嚴格檢驗",
+        "PicTitle_en": "???",
+        "PicTitle_ch": "严格检验",
+        "PicContent_tw": "閥體依API 6D/ API 598 規範要求進行高低壓測試，在高壓測試後並進行低壓0.5 bar 的驗證。所有球閥皆經過100%嚴格標準試壓檢驗。 ",
+        "PicContent_en": "???",
+        "PicContent_ch": "阀体依API 6D/ API 598 规范要求进行高低压测试，在高压测试后并进行低压0.5 bar 的验证。所有球阀皆经过100%严格标准试压检验。"
+      },
+      "4": {
+        "Video": "",
+        "VideoPic": "",
+        "VideoTitle_tw": "",
+        "VideoTitle_en": "",
+        "VideoTitle_ch": "",
+        "Pic": "",
+        "PicTitle_tw": "降低扭力",
+        "PicTitle_en": "???",
+        "PicTitle_ch": "降低扭力",
+        "PicContent_tw": "閥軸防脫出設計，並具極低且穩定的扭力，以及採用標準ISO 5211介面，方便操作方式的選用。",
+        "PicContent_en": "???",
+        "PicContent_ch": "阀轴防脱出设计，并具极低且稳定的扭力，以及采用标准ISO 5211介面，方便操作方式的选用。"
+      },
+      "5": {
+        "Video": "",
+        "VideoPic": "",
+        "VideoTitle_tw": "",
+        "VideoTitle_en": "",
+        "VideoTitle_ch": "",
+        "Pic": "",
+        "PicTitle_tw": "抗腐蝕間隙",
+        "PicTitle_en": "???",
+        "PicTitle_ch": "抗腐蚀间隙",
+        "PicContent_tw": "閥體與閥蓋間的結合處緊密接合，無間隙，避免產生間隙腐蝕。",
+        "PicContent_en": "???",
+        "PicContent_ch": "阀体与阀盖间的结合处紧密接合，无间隙，避免产生间隙腐蚀。"
+      },
+      "6": {
+        "Video": "",
+        "VideoPic": "",
+        "VideoTitle_tw": "",
+        "VideoTitle_en": "",
+        "VideoTitle_ch": "",
+        "Pic": "",
+        "PicTitle_tw": "爐號可追溯",
+        "PicTitle_en": "???",
+        "PicTitle_ch": "炉号可追溯",
+        "PicContent_tw": "每顆球閥都擁有爐號編號可追溯，並擁有獨立的編號，可追溯所有包括各部件材質報告、組裝、測試以及扭力等資料。",
+        "PicContent_en": "???",
+        "PicContent_ch": "每颗球阀都拥有炉号编号可追溯，并拥有独立的编号，可追溯所有包括各部件材质报告、组装、测试以及扭力等资料。"
+      },
+      "7": {
+        "Video": "",
+        "VideoPic": "",
+        "VideoTitle_tw": "",
+        "VideoTitle_en": "",
+        "VideoTitle_ch": "",
+        "Pic": "",
+        "PicTitle_tw": "強化閥軸傳動扭力",
+        "PicTitle_en": "???",
+        "PicTitle_ch": "强化阀轴传动扭力",
+        "PicContent_tw": "透過花鍵設計將閥軸與閥瓣接合，強化閥軸傳動扭力，且降低震動裕度。",
+        "PicContent_en": "???",
+        "PicContent_ch": "透过花键设计将阀轴与阀瓣接合，强化阀轴传动扭力，且降低震动裕度。"
+      },
+      "8": {
+        "Video": "",
+        "VideoPic": "",
+        "VideoTitle_tw": "",
+        "VideoTitle_en": "",
+        "VideoTitle_ch": "",
+        "Pic": "",
+        "PicTitle_tw": "第三面銜接法蘭",
+        "PicTitle_en": "???",
+        "PicTitle_ch": "第三面衔接法兰",
+        "PicContent_tw": "採用標準ISO 5211介面，方便操作方式的選用",
+        "PicContent_en": "???",
+        "PicContent_ch": "采用标准ISO 5211介面，方便操作方式的选用"
+      }
+    }
+  },
   "VF_8": {
     "Title": {
       "en": "High Performance Triple Eccentric Butterfly Valve - Upper Type",
@@ -204,6 +357,173 @@
         "PicTitle_ch": "雙向持壓設計",
         "PicContent_tw": "",
         "PicContent_en": "",
+        "PicContent_ch": ""
+      }
+    }
+  },
+  "VF_9A": {
+    "Title": {
+      "en": "VF-9A High Performance Butterfly Valves - Upper Type",
+      "tw": "VF-9A 高性能雙偏心蝶閥-上座種類",
+      "ch": "VF-9A High Performance Butterfly Valves - Upper Type"
+    },
+    "ObjSelectButton": {
+      "0": {
+        "tw": "Bare Shaft",
+        "en": "Bare Shaft",
+        "ch": "Bare Shaft"
+      },
+      "1": {
+        "tw": "VP Series",
+        "en": "VP Series",
+        "ch": "VP Series"
+      },
+      "2": {
+        "tw": "VH Series",
+        "en": "VH Series",
+        "ch": "VH Series"
+      },
+      "3": {
+        "tw": "Gear Box",
+        "en": "Gear Box",
+        "ch": "Gear Box"
+      },
+      "4": {
+        "tw": "Type4",
+        "en": "Type4",
+        "ch": "Type4"
+      },
+      "5": {
+        "tw": "Type5",
+        "en": "Type5",
+        "ch": "Type5"
+      }
+    },
+    "Tag": {
+      "1": {
+        "Video": "",
+        "VideoPic": "",
+        "VideoTitle_tw": "",
+        "VideoTitle_en": "",
+        "VideoTitle_ch": "",
+        "Pic": "",
+        "PicTitle_tw": "優化防塵功能",
+        "PicTitle_en": "Dust-proof",
+        "PicTitle_ch": "優化防塵功能",
+        "PicContent_tw": "軸承可使閥軸不與流體直接接觸，有效阻絕粉塵造成閥軸咬死。",
+        "PicContent_en": "A set of bushing design prevents the ingress of foreign material into the shaft area leads to shaft jamming.",
+        "PicContent_ch": "軸承可使閥軸不與流體直接接觸，有效阻絕粉塵造成閥軸咬死。"
+      },
+      "2": {
+        "Video": "",
+        "VideoPic": "",
+        "VideoTitle_tw": "",
+        "VideoTitle_en": "",
+        "VideoTitle_ch": "",
+        "Pic": "",
+        "PicTitle_tw": "強化閥軸傳動扭力",
+        "PicTitle_en": "Shaft Strength Upgraded",
+        "PicTitle_ch": "強化閥軸傳動扭力",
+        "PicContent_tw": "閥軸為花鍵設計，將閥軸與閥瓣巧妙結合，強化閥軸傳動扭力，降低配合間隙，使閥門操作順暢。",
+        "PicContent_en": "Shaft strength increased by splined shaft without drilling on the shaft for taper pin.",
+        "PicContent_ch": "閥軸為花鍵設計，將閥軸與閥瓣巧妙結合，強化閥軸傳動扭力，降低配合間隙，使閥門操作順暢。"
+      },
+      "3": {
+        "Video": "",
+        "VideoPic": "",
+        "VideoTitle_tw": "",
+        "VideoTitle_en": "",
+        "VideoTitle_ch": "",
+        "Pic": "",
+        "PicTitle_tw": "閥軸防爆衝出",
+        "PicTitle_en": "Blow-Out Protection",
+        "PicTitle_ch": "閥軸防爆衝出",
+        "PicContent_tw": "採機械固定螺栓鎖固防止衝出，提高穩定度。",
+        "PicContent_en": "Both the set bolt of the splined shaft and bottom cover offers reliable blowout protection.",
+        "PicContent_ch": "採機械固定螺栓鎖固防止衝出，提高穩定度。"
+      },
+      "4": {
+        "Video": "",
+        "VideoPic": "",
+        "VideoTitle_tw": "",
+        "VideoTitle_en": "",
+        "VideoTitle_ch": "",
+        "Pic": "",
+        "PicTitle_tw": "防下垂定位機構",
+        "PicTitle_en": "Blow-Out Protection",
+        "PicTitle_ch": "防下垂定位機構",
+        "PicContent_tw": "本體增加支撐平臺，增加閥軸與下蓋處貼合，大幅解決因組裝操作器時，不適當敲擊而造成閥瓣偏移問題。",
+        "PicContent_en": "Both the set bolt of the splined shaft and bottom cover offers reliable blowout protection.",
+        "PicContent_ch": "本體增加支撐平臺，增加閥軸與下蓋處貼合，大幅解決因組裝操作器時，不適當敲擊而造成閥瓣偏移問題。"
+      },
+      "5": {
+        "Video": "",
+        "VideoPic": "",
+        "VideoTitle_tw": "",
+        "VideoTitle_en": "",
+        "VideoTitle_ch": "",
+        "Pic": "",
+        "PicTitle_tw": "貼心閥門指示器",
+        "PicTitle_en": "Disc Indication",
+        "PicTitle_ch": "貼心閥門指示器",
+        "PicContent_tw": "",
+        "PicContent_en": " ",
+        "PicContent_ch": ""
+      },
+      "6": {
+        "Video": "",
+        "VideoPic": "",
+        "VideoTitle_tw": "",
+        "VideoTitle_en": "",
+        "VideoTitle_ch": "",
+        "Pic": "",
+        "PicTitle_tw": "獨特閥座壓環設計",
+        "PicTitle_en": "Value's Patent Design",
+        "PicTitle_ch": "獨特閥座壓環設計",
+        "PicContent_tw": "可擁有製造較大面積之密封空間。於壓環與本體之間達到100%的完全密封。浮動式壓環之設計，讓閥門可長時間在完全關閉的狀態下存放，也不會影響到閥座的使用功能",
+        "PicContent_en": "Patented seat and retainer design achieves enlarged sealing surface and reaches 100% tight shutoff. \nThe valve can be fully closed for a long time without enlarging the soft seat because of the floating retainer design. ",
+        "PicContent_ch": "可擁有製造較大面積之密封空間。於壓環與本體之間達到100%的完全密封。浮動式壓環之設計，讓閥門可長時間在完全關閉的狀態下存放，也不會影響到閥座的使用功能"
+      },
+      "7": {
+        "Video": "",
+        "VideoPic": "",
+        "VideoTitle_tw": "",
+        "VideoTitle_en": "",
+        "VideoTitle_ch": "",
+        "Pic": "",
+        "PicTitle_tw": "輕鬆維修",
+        "PicTitle_en": "Easy Maintenance",
+        "PicTitle_ch": "輕鬆維修",
+        "PicContent_tw": "閥軸、閥瓣受損可於現場直接更換，只需要一般手動工具即可進行全面性維護。",
+        "PicContent_en": "Design feature of spline connection allows for easy repair and maintenance.",
+        "PicContent_ch": "閥軸、閥瓣受損可於現場直接更換，只需要一般手動工具即可進行全面性維護。"
+      },
+      "8": {
+        "Video": "",
+        "VideoPic": "",
+        "VideoTitle_tw": "",
+        "VideoTitle_en": "",
+        "VideoTitle_ch": "",
+        "Pic": "",
+        "PicTitle_tw": "雙向持壓設計",
+        "PicTitle_en": "Bi-Directional Shutoff Design",
+        "PicTitle_ch": "雙向持壓設計",
+        "PicContent_tw": "增加了閥座使用壽命，閥門使用壽命可達200萬次以上之可能性。",
+        "PicContent_en": "The floating sealing design is self-adjustable, this mechanism provides flawless bubble tight shutoff and provides the life cycles up to 2,000,000 cycles",
+        "PicContent_ch": "增加了閥座使用壽命，閥門使用壽命可達200萬次以上之可能性。"
+      },
+      "9": {
+        "Video": "",
+        "VideoPic": "",
+        "VideoTitle_tw": "",
+        "VideoTitle_en": "",
+        "VideoTitle_ch": "",
+        "Pic": "",
+        "PicTitle_tw": "貼心閥門指示器",
+        "PicTitle_en": "Disc Indication",
+        "PicTitle_ch": "貼心閥門指示器",
+        "PicContent_tw": "",
+        "PicContent_en": " ",
         "PicContent_ch": ""
       }
     }
