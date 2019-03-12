@@ -45,6 +45,34 @@
         "VideoTitle_en": "",
         "VideoTitle_ch": "",
         "Pic": "",
+        "PicTitle_tw": "方向指示標記",
+        "PicTitle_en": "???",
+        "PicTitle_ch": "方向指示标记",
+        "PicContent_tw": "",
+        "PicContent_en": "",
+        "PicContent_ch": ""
+      },
+      "2": {
+        "Video": "",
+        "VideoPic": "",
+        "VideoTitle_tw": "",
+        "VideoTitle_en": "",
+        "VideoTitle_ch": "",
+        "Pic": "",
+        "PicTitle_tw": "第三面銜接法蘭",
+        "PicTitle_en": "???",
+        "PicTitle_ch": "第三面衔接法兰",
+        "PicContent_tw": "採用標準ISO 5211介面，方便操作方式的選用",
+        "PicContent_en": "???",
+        "PicContent_ch": "采用标准ISO 5211介面，方便操作方式的选用"
+      },
+      "3": {
+        "Video": "",
+        "VideoPic": "",
+        "VideoTitle_tw": "",
+        "VideoTitle_en": "",
+        "VideoTitle_ch": "",
+        "Pic": "",
         "PicTitle_tw": "雙頭牙條抗震動",
         "PicTitle_en": "???",
         "PicTitle_ch": "双头牙条抗震动",
@@ -52,7 +80,7 @@
         "PicContent_en": "???",
         "PicContent_ch": "采用捷流集团自制双头牙条，且均使用细牙螺纹，降低因管线震动而使螺丝松动的疑虑。"
       },
-      "2": {
+      "4": {
         "Video": "",
         "VideoPic": "",
         "VideoTitle_tw": "",
@@ -66,63 +94,7 @@
         "PicContent_en": "???",
         "PicContent_ch": "阀体与阀盖之结合强度大，锁固力大于两侧的法兰强度，避免阀体与阀盖结合面受压力裂开。"
       },
-      "3": {
-        "Video": "",
-        "VideoPic": "",
-        "VideoTitle_tw": "",
-        "VideoTitle_en": "",
-        "VideoTitle_ch": "",
-        "Pic": "",
-        "PicTitle_tw": "嚴格檢驗",
-        "PicTitle_en": "???",
-        "PicTitle_ch": "严格检验",
-        "PicContent_tw": "閥體依API 6D/ API 598 規範要求進行高低壓測試，在高壓測試後並進行低壓0.5 bar 的驗證。所有球閥皆經過100%嚴格標準試壓檢驗。 ",
-        "PicContent_en": "???",
-        "PicContent_ch": "阀体依API 6D/ API 598 规范要求进行高低压测试，在高压测试后并进行低压0.5 bar 的验证。所有球阀皆经过100%严格标准试压检验。"
-      },
-      "4": {
-        "Video": "",
-        "VideoPic": "",
-        "VideoTitle_tw": "",
-        "VideoTitle_en": "",
-        "VideoTitle_ch": "",
-        "Pic": "",
-        "PicTitle_tw": "降低扭力",
-        "PicTitle_en": "???",
-        "PicTitle_ch": "降低扭力",
-        "PicContent_tw": "閥軸防脫出設計，並具極低且穩定的扭力，以及採用標準ISO 5211介面，方便操作方式的選用。",
-        "PicContent_en": "???",
-        "PicContent_ch": "阀轴防脱出设计，并具极低且稳定的扭力，以及采用标准ISO 5211介面，方便操作方式的选用。"
-      },
       "5": {
-        "Video": "",
-        "VideoPic": "",
-        "VideoTitle_tw": "",
-        "VideoTitle_en": "",
-        "VideoTitle_ch": "",
-        "Pic": "",
-        "PicTitle_tw": "抗腐蝕間隙",
-        "PicTitle_en": "???",
-        "PicTitle_ch": "抗腐蚀间隙",
-        "PicContent_tw": "閥體與閥蓋間的結合處緊密接合，無間隙，避免產生間隙腐蝕。",
-        "PicContent_en": "???",
-        "PicContent_ch": "阀体与阀盖间的结合处紧密接合，无间隙，避免产生间隙腐蚀。"
-      },
-      "6": {
-        "Video": "",
-        "VideoPic": "",
-        "VideoTitle_tw": "",
-        "VideoTitle_en": "",
-        "VideoTitle_ch": "",
-        "Pic": "",
-        "PicTitle_tw": "爐號可追溯",
-        "PicTitle_en": "???",
-        "PicTitle_ch": "炉号可追溯",
-        "PicContent_tw": "每顆球閥都擁有爐號編號可追溯，並擁有獨立的編號，可追溯所有包括各部件材質報告、組裝、測試以及扭力等資料。",
-        "PicContent_en": "???",
-        "PicContent_ch": "每颗球阀都拥有炉号编号可追溯，并拥有独立的编号，可追溯所有包括各部件材质报告、组装、测试以及扭力等资料。"
-      },
-      "7": {
         "Video": "",
         "VideoPic": "",
         "VideoTitle_tw": "",
@@ -136,6 +108,34 @@
         "PicContent_en": "???",
         "PicContent_ch": "透过花键设计将阀轴与阀瓣接合，强化阀轴传动扭力，且降低震动裕度。"
       },
+      "6": {
+        "Video": "",
+        "VideoPic": "",
+        "VideoTitle_tw": "",
+        "VideoTitle_en": "",
+        "VideoTitle_ch": "",
+        "Pic": "",
+        "PicTitle_tw": "嚴格檢驗",
+        "PicTitle_en": "???",
+        "PicTitle_ch": "严格检验",
+        "PicContent_tw": "閥體依API 6D/ API 598 規範要求進行高低壓測試，在高壓測試後並進行低壓0.5 bar 的驗證。所有球閥皆經過100%嚴格標準試壓檢驗。 ",
+        "PicContent_en": "???",
+        "PicContent_ch": "阀体依API 6D/ API 598 规范要求进行高低压测试，在高压测试后并进行低压0.5 bar 的验证。所有球阀皆经过100%严格标准试压检验。"
+      },
+      "7": {
+        "Video": "",
+        "VideoPic": "",
+        "VideoTitle_tw": "",
+        "VideoTitle_en": "",
+        "VideoTitle_ch": "",
+        "Pic": "",
+        "PicTitle_tw": "閥蓋",
+        "PicTitle_en": "???",
+        "PicTitle_ch": "阀盖",
+        "PicContent_tw": "",
+        "PicContent_en": "",
+        "PicContent_ch": ""
+      },
       "8": {
         "Video": "",
         "VideoPic": "",
@@ -143,12 +143,54 @@
         "VideoTitle_en": "",
         "VideoTitle_ch": "",
         "Pic": "",
-        "PicTitle_tw": "第三面銜接法蘭",
+        "PicTitle_tw": "閥體",
         "PicTitle_en": "???",
-        "PicTitle_ch": "第三面衔接法兰",
-        "PicContent_tw": "採用標準ISO 5211介面，方便操作方式的選用",
+        "PicTitle_ch": "阀体",
+        "PicContent_tw": "",
+        "PicContent_en": "",
+        "PicContent_ch": ""
+      },
+      "9": {
+        "Video": "",
+        "VideoPic": "",
+        "VideoTitle_tw": "",
+        "VideoTitle_en": "",
+        "VideoTitle_ch": "",
+        "Pic": "",
+        "PicTitle_tw": "抗腐蝕間隙",
+        "PicTitle_en": "???",
+        "PicTitle_ch": "抗腐蚀间隙",
+        "PicContent_tw": "閥體與閥蓋間的結合處緊密接合，無間隙，避免產生間隙腐蝕。",
         "PicContent_en": "???",
-        "PicContent_ch": "采用标准ISO 5211介面，方便操作方式的选用"
+        "PicContent_ch": "阀体与阀盖间的结合处紧密接合，无间隙，避免产生间隙腐蚀。"
+      },
+      "10": {
+        "Video": "",
+        "VideoPic": "",
+        "VideoTitle_tw": "",
+        "VideoTitle_en": "",
+        "VideoTitle_ch": "",
+        "Pic": "",
+        "PicTitle_tw": "降低扭力",
+        "PicTitle_en": "???",
+        "PicTitle_ch": "降低扭力",
+        "PicContent_tw": "閥軸防脫出設計，並具極低且穩定的扭力，以及採用標準ISO 5211介面，方便操作方式的選用。",
+        "PicContent_en": "???",
+        "PicContent_ch": "阀轴防脱出设计，并具极低且稳定的扭力，以及采用标准ISO 5211介面，方便操作方式的选用。"
+      },
+      "11": {
+        "Video": "",
+        "VideoPic": "",
+        "VideoTitle_tw": "",
+        "VideoTitle_en": "",
+        "VideoTitle_ch": "",
+        "Pic": "",
+        "PicTitle_tw": "爐號可追溯",
+        "PicTitle_en": "???",
+        "PicTitle_ch": "炉号可追溯",
+        "PicContent_tw": "每顆球閥都擁有爐號編號可追溯，並擁有獨立的編號，可追溯所有包括各部件材質報告、組裝、測試以及扭力等資料。",
+        "PicContent_en": "???",
+        "PicContent_ch": "每颗球阀都拥有炉号编号可追溯，并拥有独立的编号，可追溯所有包括各部件材质报告、组装、测试以及扭力等资料。"
       }
     }
   },
@@ -511,20 +553,6 @@
         "PicContent_tw": "增加了閥座使用壽命，閥門使用壽命可達200萬次以上之可能性。",
         "PicContent_en": "The floating sealing design is self-adjustable, this mechanism provides flawless bubble tight shutoff and provides the life cycles up to 2,000,000 cycles",
         "PicContent_ch": "增加了閥座使用壽命，閥門使用壽命可達200萬次以上之可能性。"
-      },
-      "9": {
-        "Video": "",
-        "VideoPic": "",
-        "VideoTitle_tw": "",
-        "VideoTitle_en": "",
-        "VideoTitle_ch": "",
-        "Pic": "",
-        "PicTitle_tw": "貼心閥門指示器",
-        "PicTitle_en": "Disc Indication",
-        "PicTitle_ch": "貼心閥門指示器",
-        "PicContent_tw": "",
-        "PicContent_en": " ",
-        "PicContent_ch": ""
       }
     }
   }
