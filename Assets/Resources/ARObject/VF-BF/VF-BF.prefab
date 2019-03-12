@@ -13400,7 +13400,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: VF-BF
+          value: VF_BF
         fsmObjectParams: []
         fsmVarParams:
         - variableName: String/Json/Main
