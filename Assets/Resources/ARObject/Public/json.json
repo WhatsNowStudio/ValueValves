@@ -129,28 +129,14 @@
         "VideoTitle_en": "",
         "VideoTitle_ch": "",
         "Pic": "",
-        "PicTitle_tw": "閥蓋",
+        "PicTitle_tw": "抗腐蝕間隙",
         "PicTitle_en": "???",
-        "PicTitle_ch": "阀盖",
-        "PicContent_tw": "",
-        "PicContent_en": "",
-        "PicContent_ch": ""
+        "PicTitle_ch": "抗腐蚀间隙",
+        "PicContent_tw": "閥體與閥蓋間的結合處緊密接合，無間隙，避免產生間隙腐蝕。",
+        "PicContent_en": "???",
+        "PicContent_ch": "阀体与阀盖间的结合处紧密接合，无间隙，避免产生间隙腐蚀。"
       },
       "8": {
-        "Video": "",
-        "VideoPic": "",
-        "VideoTitle_tw": "",
-        "VideoTitle_en": "",
-        "VideoTitle_ch": "",
-        "Pic": "",
-        "PicTitle_tw": "閥體",
-        "PicTitle_en": "???",
-        "PicTitle_ch": "阀体",
-        "PicContent_tw": "",
-        "PicContent_en": "",
-        "PicContent_ch": ""
-      },
-      "9": {
         "Video": "",
         "VideoPic": "",
         "VideoTitle_tw": "",
@@ -164,7 +150,7 @@
         "PicContent_en": "???",
         "PicContent_ch": "阀体与阀盖间的结合处紧密接合，无间隙，避免产生间隙腐蚀。"
       },
-      "10": {
+      "9": {
         "Video": "",
         "VideoPic": "",
         "VideoTitle_tw": "",
@@ -178,7 +164,7 @@
         "PicContent_en": "???",
         "PicContent_ch": "阀轴防脱出设计，并具极低且稳定的扭力，以及采用标准ISO 5211介面，方便操作方式的选用。"
       },
-      "11": {
+      "10": {
         "Video": "",
         "VideoPic": "",
         "VideoTitle_tw": "",

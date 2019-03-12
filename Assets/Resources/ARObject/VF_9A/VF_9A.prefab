@@ -3323,11 +3323,11 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: 5270c62809d596f42983457f0da3342d, type: 2}
+  - {fileID: 2100000, guid: ccb2f20bae263ad4dbf4520dbd395de7, type: 2}
   - {fileID: 2100000, guid: 38fc2adf69672d3419be2c2771b7f530, type: 2}
   - {fileID: 2100000, guid: d7949c8eaefac4846908ba414ec425b4, type: 2}
   - {fileID: 2100000, guid: 5270c62809d596f42983457f0da3342d, type: 2}
-  - {fileID: 2100000, guid: b06fdf1fda0b07b43af9e806d8814ced, type: 2}
+  - {fileID: 2100000, guid: 5270c62809d596f42983457f0da3342d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3364,7 +3364,7 @@ MeshRenderer:
   m_Materials:
   - {fileID: 2100000, guid: ccb2f20bae263ad4dbf4520dbd395de7, type: 2}
   - {fileID: 2100000, guid: 7370c410b2c11044cbdf59262a75f2b3, type: 2}
-  - {fileID: 2100000, guid: d7949c8eaefac4846908ba414ec425b4, type: 2}
+  - {fileID: 2100000, guid: 7370c410b2c11044cbdf59262a75f2b3, type: 2}
   - {fileID: 2100000, guid: 7263c28b401c0794f9a6635827b02c0a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -9071,7 +9071,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 2100000, guid: 00a2c7a16bbdd4f46b72a385733100c2, type: 2}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 1, b: 1, a: 1}
   m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -11876,7 +11876,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 2100000, guid: 00a2c7a16bbdd4f46b72a385733100c2, type: 2}
-  m_Color: {r: 0.42647058, g: 0.42647058, b: 0.42647058, a: 0.40784314}
+  m_Color: {r: 0, g: 0.18762666, b: 0.7352941, a: 0.522}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
