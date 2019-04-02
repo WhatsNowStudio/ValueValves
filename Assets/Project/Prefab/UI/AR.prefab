@@ -2987,7 +2987,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0d2eafce53b846b587a02a5ec384ea8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ContentID: VF-BF
+  ContentID: VF_BF
 --- !u!114 &114005018693407002
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13396,8 +13396,8 @@ MonoBehaviour:
       colorIndex: 2
       position:
         serializedVersion: 2
-        x: 464.5
-        y: 245.5
+        x: 612.5
+        y: 201.5
         width: 100
         height: 16
       isBreakpoint: 0
@@ -15768,14 +15768,22 @@ MonoBehaviour:
       colorIndex: 2
       position:
         serializedVersion: 2
-        x: 608
-        y: 284
-        width: 108
-        height: 16
+        x: 588
+        y: 292
+        width: 118
+        height: 32
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
-      transitions: []
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: "\u547C\u53EB\u5BEB\u5165\u8CC7\u6599"
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.SendEvent
@@ -15865,8 +15873,8 @@ MonoBehaviour:
       colorIndex: 2
       position:
         serializedVersion: 2
-        x: 462
-        y: 280
+        x: 443
+        y: 265
         width: 100
         height: 48
       isBreakpoint: 0
@@ -15885,7 +15893,7 @@ MonoBehaviour:
           name: N
           isSystemEvent: 0
           isGlobal: 0
-        toState: "\u547C\u53EB\u5BEB\u5165\u8CC7\u6599"
+        toState: "\u547C\u53EBUI\u8AAA\u660E\u95DC\u9589"
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -16362,7 +16370,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 585d7c3573edbb8418ad5bd96b3cfe17, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 34b285ea2d103b242975d50ee8768d06, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -19371,7 +19379,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 9cca22ea0c83ef54cb2265410b64a7fd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 34b285ea2d103b242975d50ee8768d06, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -27349,7 +27357,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0d2eafce53b846b587a02a5ec384ea8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ContentID: VF-BF
+  ContentID: VF_BF
 --- !u!114 &114892318345245410
 MonoBehaviour:
   m_ObjectHideFlags: 1
