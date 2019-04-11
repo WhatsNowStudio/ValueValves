@@ -1,7 +1,5 @@
 fileFormatVersion: 2
 guid: f533c294f241a6546bf4cbbd9e389afd
-timeCreated: 1527142243
-licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
@@ -19,12 +17,15 @@ ModelImporter:
     2100006: Metal
     2100008: 19 - Default
     2100010: 15 - Default
+    2100012: 'Material #35'
+    2100014: '13 - Default Slot #5'
     2300000: "A3+S3\u9F52\u7BB1"
     2300002: "A3+S3\u9F52\u7BB1_Low"
     3300000: "A3+S3\u9F52\u7BB1"
     3300002: "A3+S3\u9F52\u7BB1_Low"
     4300000: "A3+S3\u9F52\u7BB1"
     4300002: "A3+S3\u9F52\u7BB1_Low"
+    7400000: Take 001
     9500000: //RootNode
   externalObjects: {}
   materials:
@@ -45,6 +46,7 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
