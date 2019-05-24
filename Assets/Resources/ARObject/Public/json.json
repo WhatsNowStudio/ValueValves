@@ -45,9 +45,9 @@
         "VideoTitle_en": "",
         "VideoTitle_ch": "",
         "Pic": "",
-        "PicTitle_tw": "方向指示標記",
-        "PicTitle_en": "???",
-        "PicTitle_ch": "方向指示标记",
+        "PicTitle_tw": "閥軸及本體擁有防靜電設計",
+        "PicTitle_en": "Anti-Static design ball to stem and body",
+        "PicTitle_ch": "阀轴及本体拥有防静电设计",
         "PicContent_tw": "",
         "PicContent_en": "",
         "PicContent_ch": ""
@@ -59,12 +59,12 @@
         "VideoTitle_en": "",
         "VideoTitle_ch": "",
         "Pic": "",
-        "PicTitle_tw": "第三面銜接法蘭",
-        "PicTitle_en": "???",
-        "PicTitle_ch": "第三面衔接法兰",
-        "PicContent_tw": "採用標準ISO5211介面，方便操作方式的選用",
-        "PicContent_en": "???",
-        "PicContent_ch": "采用标准ISO5211介面，方便操作方式的选用"
+        "PicTitle_tw": "採用標準ISO 5211介面",
+        "PicTitle_en": "ISO 5211 mounting",
+        "PicTitle_ch": "采用标准ISO 5211介面",
+        "PicContent_tw": "方便操作方式的選用",
+        "PicContent_en": "",
+        "PicContent_ch": "方便操作方式的选用"
       },
       "3": {
         "Video": "",
@@ -74,11 +74,11 @@
         "VideoTitle_ch": "",
         "Pic": "",
         "PicTitle_tw": "雙頭牙條抗震動",
-        "PicTitle_en": "???",
+        "PicTitle_en": "Vibrating resistance",
         "PicTitle_ch": "双头牙条抗震动",
-        "PicContent_tw": "採用捷流集團自製雙頭牙條，且均使用細牙螺紋，降低因管線震動而使螺絲鬆動的疑慮。",
-        "PicContent_en": "???",
-        "PicContent_ch": "采用捷流集团自制双头牙条，且均使用细牙螺纹，降低因管线震动而使螺丝松动的疑虑。"
+        "PicContent_tw": "採用捷流集團自製雙頭細牙螺紋牙條，降低因管線震動而使螺絲鬆動的疑慮。",
+        "PicContent_en": "The assembly bolt of Value’s special design can reduce the doubt of screw loosening of pipe line vibration.",
+        "PicContent_ch": "采用捷流集团自制双头细牙螺纹牙条，降低因管线震动而使螺丝松动的疑虑。"
       },
       "4": {
         "Video": "",
@@ -87,11 +87,11 @@
         "VideoTitle_en": "",
         "VideoTitle_ch": "",
         "Pic": "",
-        "PicTitle_tw": "閥體與側蓋結合強度",
-        "PicTitle_en": "???",
-        "PicTitle_ch": "阀体与侧盖结合强度",
+        "PicTitle_tw": "閥體與側蓋結合強度大",
+        "PicTitle_en": "Strong combination",
+        "PicTitle_ch": "阀体与侧盖结合强度大",
         "PicContent_tw": "閥體與閥蓋之結合強度大，鎖固力大於兩側的法蘭強度，避免閥體與閥蓋結合面受壓力裂開。",
-        "PicContent_en": "???",
+        "PicContent_en": "The construction of body and body cap is larger than the flanges, which can avoid the joint surface to be split by the locking strength of the flanges.",
         "PicContent_ch": "阀体与阀盖之结合强度大，锁固力大于两侧的法兰强度，避免阀体与阀盖结合面受压力裂开。"
       },
       "5": {
@@ -102,10 +102,10 @@
         "VideoTitle_ch": "",
         "Pic": "",
         "PicTitle_tw": "強化閥軸傳動扭力",
-        "PicTitle_en": "???",
+        "PicTitle_en": "Shaft Strength Upgraded",
         "PicTitle_ch": "强化阀轴传动扭力",
         "PicContent_tw": "透過花鍵設計將閥軸與閥瓣接合，強化閥軸傳動扭力，且降低震動裕度。",
-        "PicContent_en": "???",
+        "PicContent_en": "Shaft strength increased by splined shaft.",
         "PicContent_ch": "透过花键设计将阀轴与阀瓣接合，强化阀轴传动扭力，且降低震动裕度。"
       },
       "6": {
@@ -116,11 +116,11 @@
         "VideoTitle_ch": "",
         "Pic": "",
         "PicTitle_tw": "嚴格檢驗",
-        "PicTitle_en": "???",
+        "PicTitle_en": "Rigorous Inspection",
         "PicTitle_ch": "严格检验",
-        "PicContent_tw": "閥體依API 6D/ API 598規範要求進行高低壓測試，在高壓測試後並進行低壓0.5 bar的驗證。所有球閥皆經過100%嚴格標準試壓檢驗。 ",
-        "PicContent_en": "???",
-        "PicContent_ch": "阀体依API 6D/ API 598规范要求进行高低压测试，在高压测试后并进行低压0.5 bar的验证。所有球阀皆经过100%严格标准试压检验。"
+        "PicContent_tw": "閥體依API 6D/ API 598規範要求進行高低壓測試。 ",
+        "PicContent_en": "The shell test is applying to API 6D/API 598.",
+        "PicContent_ch": "阀体依API 6D/ API 598规范要求进行高低压测试。"
       },
       "7": {
         "Video": "",
@@ -130,10 +130,10 @@
         "VideoTitle_ch": "",
         "Pic": "",
         "PicTitle_tw": "抗腐蝕間隙",
-        "PicTitle_en": "???",
+        "PicTitle_en": "Anti-corrosion design",
         "PicTitle_ch": "抗腐蚀间隙",
         "PicContent_tw": "閥體與閥蓋間的結合處緊密接合，無間隙，避免產生間隙腐蝕。",
-        "PicContent_en": "???",
+        "PicContent_en": "The body and body cap are closely assembled and without any gap, which can avoid the corrosion of gaps.",
         "PicContent_ch": "阀体与阀盖间的结合处紧密接合，无间隙，避免产生间隙腐蚀。"
       },
       "8": {
@@ -144,10 +144,10 @@
         "VideoTitle_ch": "",
         "Pic": "",
         "PicTitle_tw": "抗腐蝕間隙",
-        "PicTitle_en": "???",
+        "PicTitle_en": "Anti-corrosion design",
         "PicTitle_ch": "抗腐蚀间隙",
         "PicContent_tw": "閥體與閥蓋間的結合處緊密接合，無間隙，避免產生間隙腐蝕。",
-        "PicContent_en": "???",
+        "PicContent_en": "The body and body cap are closely assembled and without any gap, which can avoid the corrosion of gaps.",
         "PicContent_ch": "阀体与阀盖间的结合处紧密接合，无间隙，避免产生间隙腐蚀。"
       },
       "9": {
@@ -158,11 +158,11 @@
         "VideoTitle_ch": "",
         "Pic": "",
         "PicTitle_tw": "降低扭力",
-        "PicTitle_en": "???",
+        "PicTitle_en": "Stable and low torque",
         "PicTitle_ch": "降低扭力",
-        "PicContent_tw": "閥軸防脫出設計，並具極低且穩定的扭力，以及採用標準ISO5211介面，方便操作方式的選用。",
-        "PicContent_en": "???",
-        "PicContent_ch": "阀轴防脱出设计，并具极低且稳定的扭力，以及采用标准ISO5211介面，方便操作方式的选用。"
+        "PicContent_tw": "閥軸防脫出設計，並具極低且穩定的扭力。",
+        "PicContent_en": "Ball valves are designed and equipped with blow out proof stem, lower and stable torque.",
+        "PicContent_ch": "阀轴防脱出设计，并具极低且稳定的扭力。"
       },
       "10": {
         "Video": "",
@@ -172,10 +172,10 @@
         "VideoTitle_ch": "",
         "Pic": "",
         "PicTitle_tw": "爐號可追溯",
-        "PicTitle_en": "???",
+        "PicTitle_en": "Heat number",
         "PicTitle_ch": "炉号可追溯",
         "PicContent_tw": "每顆球閥都擁有爐號編號可追溯，並擁有獨立的編號，可追溯所有包括各部件材質報告、組裝、測試以及扭力等資料。",
-        "PicContent_en": "???",
+        "PicContent_en": "Eah ball valve has an independent heat number &serial unmber to track the documents of materials, torque and inspection reports.",
         "PicContent_ch": "每颗球阀都拥有炉号编号可追溯，并拥有独立的编号，可追溯所有包括各部件材质报告、组装、测试以及扭力等资料。"
       }
     }
