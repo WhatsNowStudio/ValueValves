@@ -2356,6 +2356,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &114004381923314516
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3346,7 +3347,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 010101
-        actionIsOpen: 010000
+        actionIsOpen: 010101
         actionStartIndex: 000000000a00000017000000
         actionHashCodes: 7370ae0527ffbc035e69bb04
         unityObjectParams: []
@@ -4083,7 +4084,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 010101
-        actionIsOpen: 010000
+        actionIsOpen: 010100
         actionStartIndex: 000000000a00000017000000
         actionHashCodes: 7370ae0527ffbc035e69bb04
         unityObjectParams: []
@@ -4489,7 +4490,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 01010101
-        actionIsOpen: 01000000
+        actionIsOpen: 00000000
         actionStartIndex: 00000000030000001000000014000000
         actionHashCodes: c030f10327ffbc035e69bb045e69bb04
         unityObjectParams: []
@@ -5735,7 +5736,7 @@ MonoBehaviour:
         - 
         actionEnabled: 0101
         actionIsOpen: 0101
-        actionStartIndex: 000000000a000000
+        actionStartIndex: 000000000c000000
         actionHashCodes: 76d0e60188611604
         unityObjectParams: []
         fsmGameObjectParams: []
@@ -5771,6 +5772,12 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: CASTING FACTORY - TAIWAN
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: "VALUE VALVES(SuZhou) LTD. - CHINA \u2013 SuZhou"
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
@@ -5787,29 +5794,32 @@ MonoBehaviour:
         - Y
         - Y
         - Y
+        - Y
         - N
         byteData: 00
-        arrayParamSizes: 0300000003000000
+        arrayParamSizes: 0400000004000000
         arrayParamTypes:
         - HutongGames.PlayMaker.FsmString
         - HutongGames.PlayMaker.FsmEvent
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 120000000c0000001200000012000000120000000c0000001700000017000000170000000100000017000000
+        paramDataType: 120000000c000000120000001200000012000000120000000c000000170000001700000017000000170000000100000017000000
         paramName:
         - stringVariable
         - compareTo
         - 
         - 
         - 
+        - 
         - sendEvent
+        - 
         - 
         - 
         - 
         - everyFrame
         - sendEvent
-        paramDataPos: 0000000000000000010000000200000003000000010000000000000001000000020000000000000003000000
-        paramByteDataSize: 0000000000000000000000000000000000000000000000000000000000000000000000000100000000000000
+        paramDataPos: 00000000000000000100000002000000030000000400000001000000000000000100000002000000030000000000000004000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000
     - name: "---\u958B\u555FVRUI---"
       description: "#\u958BVR\u4E92\u52D5\n#\u95DC\u8B80\u53D6\uFF0Cif from 3D"
       colorIndex: 2
@@ -8059,6 +8069,12 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: CASTING FACTORY - TAIWAN
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: "VALUE VALVES(SuZhou) LTD. - CHINA \u2013 SuZhou"
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
@@ -8076,17 +8092,19 @@ MonoBehaviour:
         - 2
         - 2
         - 1
+        - 1
         byteData: 00
-        arrayParamSizes: 0400000004000000
+        arrayParamSizes: 0500000005000000
         arrayParamTypes:
         - HutongGames.PlayMaker.FsmString
         - HutongGames.PlayMaker.FsmEvent
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 120000000c000000120000001200000012000000120000000c0000001700000017000000170000001700000001000000
+        paramDataType: 120000000c00000012000000120000001200000012000000120000000c000000170000001700000017000000170000001700000001000000
         paramName:
         - stringVariable
         - compareTo
+        - 
         - 
         - 
         - 
@@ -8096,9 +8114,10 @@ MonoBehaviour:
         - 
         - 
         - 
+        - 
         - everyFrame
-        paramDataPos: 000000000000000001000000020000000300000004000000010000000000000001000000020000000300000000000000
-        paramByteDataSize: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000
+        paramDataPos: 0000000000000000010000000200000003000000040000000500000001000000000000000100000002000000030000000400000000000000
+        paramByteDataSize: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000
     - name: "\u76EE\u6A19\u70BA\u5927\u5730\u5716-"
       description: 
       colorIndex: 3
@@ -8182,7 +8201,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 569.8125
-        y: 1108.5469
+        y: 1117.5469
         width: 102
         height: 32
       isBreakpoint: 0
@@ -19327,24 +19346,33 @@ MonoBehaviour:
         - curve:
             serializedVersion: 2
             m_Curve:
-            - serializedVersion: 2
+            - serializedVersion: 3
               time: 0.0018005371
               value: -0.0045547485
               inSlope: 0
               outSlope: 0
               tangentMode: 0
-            - serializedVersion: 2
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            - serializedVersion: 3
               time: 0.4954955
               value: 1
               inSlope: 4.4967556
               outSlope: 0
               tangentMode: 1
-            - serializedVersion: 2
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
+            - serializedVersion: 3
               time: 0.99816895
               value: -0.0022773743
               inSlope: 0
               outSlope: 0
               tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.33333334
+              outWeight: 0.33333334
             m_PreInfinity: 2
             m_PostInfinity: 2
             m_RotationOrder: 4
@@ -23851,7 +23879,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0.46206903, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
